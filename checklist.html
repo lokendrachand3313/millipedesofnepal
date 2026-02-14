@@ -1,69 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Checklist - Millipedes of Nepal</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .search-container { margin: 20px 0; text-align: center; }
-        #speciesSearch { 
-            width: 80%; padding: 15px; border-radius: 25px; 
-            border: 2px solid var(--primary-green); font-size: 1.1rem;
-        }
-        .species-card {
-            border: 1px solid #ddd; padding: 15px; margin: 10px 0;
-            border-radius: 8px; background: #fff; transition: 0.3s;
-        }
-        .species-card:hover { border-color: var(--leaf-green); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        .taxa-path { font-size: 0.8rem; color: #666; text-transform: uppercase; }
-        .species-name { color: var(--primary-green); font-size: 1.3rem; margin: 5px 0; }
-        .detail-label { font-weight: bold; color: var(--earth-brown); }
-    </style>
-</head>
-<body>
-
-<header style="padding:40px;">
-    <h1>Species Checklist</h1>
-    <p>Database of Nepalese Diplopoda</p>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="checklist.html">Checklist</a>
-</nav>
-
 <main>
-    <div class="search-container">
-        <input type="text" id="speciesSearch" placeholder="Search by Order, Family, Genus or Species name...">
+    <div class="search-container" style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+        <select id="orderFilter" class="filter-select"><option value="all">Select Order</option></select>
+        <select id="familyFilter" class="filter-select"><option value="all">Select Family</option></select>
+        <select id="genusFilter" class="filter-select"><option value="all">Select Genus</option></select>
+        <select id="speciesFilter" class="filter-select"><option value="all">Select Species</option></select>
     </div>
 
-    <div id="resultsCount" style="text-align: center; margin-bottom: 10px; font-weight: bold;"></div>
+    <div id="resultsCount" style="text-align: center; margin-bottom: 20px; font-weight: bold;"></div>
+    
     <div id="checklistResults">
-        </div>
+        <div style="text-align:center; color:#666;">Select a species to view full details.</div>
+    </div>
 </main>
+
+<style>
+    .filter-select {
+        padding: 10px;
+        border-radius: 8px;
+        border: 2px solid var(--primary-green);
+        min-width: 150px;
+        cursor: pointer;
+    }
+</style>
 
 <script>
     let speciesData = [];
 
-    // Load the data from your JSON file
+    // Load Data
     fetch('checklist.json')
         .then(response => response.json())
         .then(data => {
             speciesData = data;
-            displayResults(data); // Show all initially
+            initFilters();
         });
 
-    const searchInput = document.getElementById('speciesSearch');
-    searchInput.addEventListener('input', (e) => {
-        const term = e.target.value.toLowerCase();
+    function initFilters() {
+        populateDropdown('orderFilter', 'order');
+        setupListeners();
+    }
+
+    function populateDropdown(id, key, filterKey = null, filterValue = null) {
+        const select = document.getElementById(id);
+        select.innerHTML = `<option value="all">Select ${key.charAt(0).toUpperCase() + key.slice(1)}</option>`;
+        
+        let filtered = speciesData;
+        if (filterKey && filterValue !== 'all') {
+            filtered = speciesData.filter(item => item[filterKey] === filterValue);
+        }
+
+        const uniqueVals = [...new Set(filtered.map(item => item[key]))].sort();
+        uniqueVals.forEach(val => {
+            if(val) {
+                const opt = document.createElement('option');
+                opt.value = val;
+                opt.textContent = val;
+                select.appendChild(opt);
+            }
+        });
+    }
+
+    function setupListeners() {
+        const orderSel = document.getElementById('orderFilter');
+        const familySel = document.getElementById('familyFilter');
+        const genusSel = document.getElementById('genusFilter');
+        const speciesSel = document.getElementById('speciesFilter');
+
+        orderSel.onchange = () => {
+            populateDropdown('familyFilter', 'family', 'order', orderSel.value);
+            familySel.onchange(); // Trigger cascade
+        };
+
+        familySel.onchange = () => {
+            populateDropdown('genusFilter', 'genus', 'family', familySel.value);
+            genusSel.onchange(); // Trigger cascade
+        };
+
+        genusSel.onchange = () => {
+            populateDropdown('speciesFilter', 'species', 'genus', genusSel.value);
+            updateResults();
+        };
+
+        speciesSel.onchange = updateResults;
+    }
+
+    function updateResults() {
+        const order = document.getElementById('orderFilter').value;
+        const family = document.getElementById('familyFilter').value;
+        const genus = document.getElementById('genusFilter').value;
+        const species = document.getElementById('speciesFilter').value;
+
         const filtered = speciesData.filter(item => 
-            item.order.toLowerCase().includes(term) ||
-            item.family.toLowerCase().includes(term) ||
-            item.genus.toLowerCase().includes(term) ||
-            item.species.toLowerCase().includes(term)
+            (order === 'all' || item.order === order) &&
+            (family === 'all' || item.family === family) &&
+            (genus === 'all' || item.genus === genus) &&
+            (species === 'all' || item.species === species)
         );
+
         displayResults(filtered);
-    });
+    }
 
     function displayResults(results) {
         const container = document.getElementById('checklistResults');
@@ -71,20 +105,22 @@
         count.innerText = `Showing ${results.length} species`;
         container.innerHTML = '';
 
+        if (results.length === 0) {
+            container.innerHTML = '<p style="text-align:center;">No species found matching those criteria.</p>';
+            return;
+        }
+
         results.forEach(item => {
             const card = document.createElement('div');
             card.className = 'species-card';
             card.innerHTML = `
                 <div class="taxa-path">${item.order} > ${item.family}</div>
-                <div class="species-name"><i>${item.genus} ${item.species}</i> ${item.author}</div>
-                <p><span class="detail-label">Type Locality:</span> ${item.type_locality}</p>
-                <p><span class="detail-label">Global Distribution:</span> ${item.global_dist}</p>
-                <p><span class="detail-label">Nepal Distribution:</span> ${item.nepal_dist}</p>
+                <div class="species-name"><i>${item.genus} ${item.species}</i> ${item.author || ''}</div>
+                <p><span class="detail-label">Type Locality:</span> ${item.type_locality || 'N/A'}</p>
+                <p><span class="detail-label">Global Distribution:</span> ${item.global_dist || 'N/A'}</p>
+                <p><span class="detail-label">Nepal Distribution:</span> ${item.nepal_dist || 'N/A'}</p>
             `;
             container.appendChild(card);
         });
     }
 </script>
-
-</body>
-</html>
