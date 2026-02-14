@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Distribution Map - Millipedes of Nepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #map { height: 600px; width: 100%; border-radius: 10px; margin-top: 20px; }
+        .filter-box { background: var(--leaf-green); color: white; padding: 15px; border-radius: 8px; margin-bottom: 10px; }
+        select { padding: 8px; border-radius: 5px; border: none; margin-right: 10px; }
+    </style>
+</head>
+<body>
+
+<header style="padding:40px;">
+    <h1>Species Distribution</h1>
+    <p>Mapping the Diplopoda of Nepal</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="checklist.html">Checklist</a>
+    <a href="distribution.html">Map</a>
+</nav>
+
+<main>
+    <div class="filter-box">
+        <label>Filter by Order:</label>
+        <select id="orderFilter" onchange="updateMap()">
+            <option value="all">All Orders</option>
+            <option value="Glomerida">Glomerida</option>
+            <option value="Sphaerotheriida">Sphaerotheriida</option>
+            <option value="Polyzoniida">Polyzoniida</option>
+            <option value="Julida">Julida</option>
+        </select>
+    </div>
+
+    <div id="map"></div>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data.js"></script>
+
+<script>
+    // Initialize the map centered on Nepal
+    const map = L.map('map').setView([28.3949, 84.1240], 7);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    let markers = [];
+
+    function updateMap() {
+        // Clear existing markers
+        markers.forEach(m => map.removeLayer(m));
+        markers = [];
+
+        const selectedOrder = document.getElementById('orderFilter').value;
+
+        millipedePoints.forEach(point => {
+            if (selectedOrder === "all" || point.order === selectedOrder) {
+                const marker = L.marker([point.lat, point.lon])
+                    .bindPopup(`
+                        <strong>${point.genus} ${point.species}</strong><br>
+                        Order: ${point.order}<br>
+                        Family: ${point.family}<br>
+                        GPS: ${point.lat}, ${point.lon}
+                    `);
+                marker.addTo(map);
+                markers.push(marker);
+            }
+        });
+    }
+
+    // Load initial map
+    updateMap();
+</script>
+
+</body>
+</html>
