@@ -1,0 +1,2347 @@
+{
+  "checklistName": "Millipedes of Nepal",
+  "taxonomicGroups": [
+    {
+      "name": "Diplopoda",
+      "rank": "class",
+      "authority": "de Blainville in Gervais, 1844",
+      "subgroups": [
+        {
+          "name": "Chilognatha",
+          "rank": "subclass",
+          "authority": "Latrielle, 1802",
+          "orders": [
+            {
+              "name": "Glomerida",
+              "rank": "order",
+              "authority": "Brandt, 1833",
+              "families": [
+                {
+                  "name": "Glomeridae",
+                  "rank": "family",
+                  "authority": "Leach, 1815",
+                  "genera": [
+                    {
+                      "name": "Hyleoglomeris",
+                      "rank": "genus",
+                      "authority": "Verhoeff, 1910",
+                      "typeSpecies": "Hyleoglomeris multineata Verhoeff, 1910",
+                      "typeLocality": "Borneo, Bengkajong, Indonesia",
+                      "species": [
+                        {
+                          "name": "Hyleoglomeris crassipes",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Tehrathum District, Tinjure Danda near Chauki",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Tehrathum District, Tinjure Danda near Chauki (2450–2720 m)",
+                          "reference": "Golovatch, 1987b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hyleoglomeris gorkhalis",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Gorkha District, between Nayasanghu and Gorkha",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, between Nayasanghu and Gorkha (1200 m)",
+                          "reference": "Golovatch, 1987b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hyleoglomeris khumbua",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Solukhumbu District, Khumbu, Mt. Everest region, confluence of Phungi and Imja Drangka",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, Khumbu, Mt. Everest region, confluence of Phungi and Imja Drangka (3250–3300 m)",
+                          "reference": "Golovatch, 1987b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hyleoglomeris nagarjunga",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Kathmandu District, Kathmandu Valley, Nagarjun, Mt. Jamacho",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kathmandu District, Kathmandu Valley, Nagarjun, Mt. Jamacho (1900–2100 m)",
+                          "reference": "Golovatch, 1987b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hyleoglomeris tinjurana",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Terhathum District, Tinjure Danda near Chauki",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Terhathum District, Tinjure Danda near Chauki (2450 m)",
+                          "reference": "Golovatch, 1987b",
+                          "isEndemic": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sphaerotheriida",
+              "rank": "order",
+              "authority": "Brandt, 1833",
+              "families": [
+                {
+                  "name": "Zephroniidae",
+                  "rank": "family",
+                  "authority": "Gray in Jones, 1843",
+                  "genera": [
+                    {
+                      "name": "Kophosphaera",
+                      "rank": "genus",
+                      "authority": "Attems, 1936",
+                      "typeSpecies": "Kophosphaera politissima Attems, 1936",
+                      "typeLocality": "Dobie Jhora, Kurseong and Sureil (5000 ft.), Darjeeling district, Eastern Himalayas",
+                      "species": [
+                        {
+                          "name": "Kophosphaera excavata",
+                          "authority": "(Butler, 1874)",
+                          "typeLocality": "Sikkim (India)",
+                          "globalDistribution": "India (Assam and Sikkim), Nepal",
+                          "distributionInNepal": "Makawanpur District, Chitlang",
+                          "reference": "Attems, 1936",
+                          "isEndemic": false
+                        },
+                        {
+                          "name": "Kophosphaera martensi",
+                          "authority": "Wesener, 2015",
+                          "typeLocality": "Kaski District, above Dhampus",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kaski District, above Dhampus (2100 m)",
+                          "reference": "Wesener, 2015",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Kophosphaera politissima",
+                          "authority": "Attems, 1936",
+                          "typeLocality": "Dobie Jhora, Kurseong; Sureil (5000 ft.), Darjeeling district, Eastern Himalayas",
+                          "globalDistribution": "India and Nepal",
+                          "distributionInNepal": "Taplejung District, lower Ghunsa Khola to Lungthung (1650–1870 m)",
+                          "reference": "Wesener, 2015",
+                          "isEndemic": false
+                        },
+                        {
+                          "name": "Kophosphaera shivapuri",
+                          "authority": "Wesener, 2015",
+                          "typeLocality": "Kathmandu District, Shivapuri Hill",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kathmandu District, Shivapuri Hill (1700–2100 m)",
+                          "reference": "Wesener, 2015",
+                          "isEndemic": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Zephronia",
+                      "rank": "genus",
+                      "authority": "Gray, 1832",
+                      "typeSpecies": "Zephronia ovalis Gray, 1832",
+                      "typeLocality": "Java (Indonesia)",
+                      "species": [
+                        {
+                          "name": "Zephronia nepalensis",
+                          "authority": "Wesener, 2015",
+                          "typeLocality": "Ilam District, Mai Pokhari",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Ilam District, Mai Pokhari (2150–2250 m); Panchthar District, between Deurali, Puspati and Sheldoti (2500–2600 m); Taplejung District, Kabeli Khola Valley, above Yamphudin (1700–2000 m)",
+                          "reference": "Wesener, 2015",
+                          "isEndemic": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Polyzoniida",
+              "rank": "order",
+              "authority": "Cook, 1895",
+              "families": [
+                {
+                  "name": "Hirudisomatidae",
+                  "rank": "family",
+                  "authority": "Silvestri, 1896",
+                  "genera": [
+                    {
+                      "name": "Nepalozonium",
+                      "rank": "genus",
+                      "authority": "Shelley, 1996",
+                      "typeSpecies": "Nepalozonium trimaculatum Shelley, 1996",
+                      "typeLocality": "Sindhupalchok District, along Yangri Ridge",
+                      "remarks": "Monotypic genus reported only from Nepal but may also exist in remote high-elevation pockets in Nepal, Bhutan, India, Tibet/China, Pakistan, Afghanistan, Tajikistan, and Kyrgyzstan",
+                      "species": [
+                        {
+                          "name": "Nepalozonium trimaculatum",
+                          "authority": "Shelley, 1996",
+                          "typeLocality": "Sindhupalchok District, along Yangri Ridge",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sindhupalchok District, along Yangri Ridge (4700–4800 m), east of the Melamchi River and extending north from Yangri Mountain to the east-west ridge connecting Mts. Ganja La (5846 m); Rasuwa District, Ponggen Dopku (5930 m)",
+                          "reference": "Shelley, 1996",
+                          "isEndemic": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Siphonocryptida",
+              "rank": "order",
+              "authority": "Pocock, 1894",
+              "families": [
+                {
+                  "name": "Siphonocryptidae",
+                  "rank": "family",
+                  "authority": "Pocock, 1894",
+                  "genera": [
+                    {
+                      "name": "Hirudicryptus",
+                      "rank": "genus",
+                      "authority": "Enghoff & Golovatch, 1995",
+                      "typeSpecies": "Siphonocryptops canariensis Loksa, 1967 = Hirudicryptus canariensis (Loksa, 1967)",
+                      "typeLocality": "Tenerife: Anaga-Gebirge, Pico del Ingles and La Gomera in Canary Islands, Spain",
+                      "species": [
+                        {
+                          "name": "Hirudicryptus quintumelementum",
+                          "authority": "Korsòs, Geoffroy & Mauriès, 2009",
+                          "typeLocality": "Kathmandu District, Shivapuri Hill, 15 km from Kathmandu",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kathmandu District, Shivapuri Hill, 15 km from Kathmandu",
+                          "reference": "Korsòs et al., 2009",
+                          "remarks": "Species description was based on a female specimen",
+                          "isEndemic": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Julida",
+              "rank": "order",
+              "authority": "Brandt, 1833",
+              "families": [
+                {
+                  "name": "Julidae",
+                  "rank": "family",
+                  "authority": "Leach, 1814",
+                  "genera": [
+                    {
+                      "name": "Anaulaciulus",
+                      "rank": "genus",
+                      "authority": "Pocock, 1895",
+                      "typeSpecies": "Anaulaciulus paludicola Pocock, 1895",
+                      "typeLocality": "Wo-Lee Lake, 25 miles south of Ningpo (=Ningbo), China",
+                      "species": [
+                        {
+                          "name": "Anaulaciulus bilineatus",
+                          "authority": "Korsós, 2001",
+                          "typeLocality": "Dolpa District, Northern Dhaulagiri Himal, Ringmo on Lake Shey Phoksundo",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Dolpa District, N Dhaulagiri Himal, Ringmo on Lake Shey Phoksundo (3600–4100 m); Gompa (=Gumba) near Tarakot (3300–3400 m); ascent to Baga La Pass from Ringmo via Manduwa (4300 m)",
+                          "reference": "Korsós, 2001",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Anaulaciulus nepalensis",
+                          "authority": "Korsós, 2001",
+                          "typeLocality": "Mustang District, Thasang above Tukuche",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Thasang above Tukuche (3150–3400 m), on the way from Tukuche to Thasang (2650–2950 m), ascent to Thasang (2700–2900 m); Myagdi District, Western Dhaulagiri Himal, Thakur (3350 m); Sankhuwasabha District, above Pawakhola (2600–2800 m)",
+                          "reference": "Korsós, 2001",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Anaulaciulus niger",
+                          "authority": "Korsós, 2001",
+                          "typeLocality": "Taplejung District, Pass Anda Deurali, between Simbuwa and Ghunsa Khola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, Pass Anda Deurali, between Simbuwa and Ghunsa Khola (4250–4500 m), S Ghunsa (4270 m); Gorkha District, Chumling Khola (3000–3400 m), SW Rupina La, Tabruk Kharka (4000 m); Sankhuwasabha District, above Pawakhola (2600–2800 m)",
+                          "reference": "Korsós, 2001",
+                          "isEndemic": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Nepalmatoiulus",
+                      "rank": "genus",
+                      "authority": "Mauriès, 1983",
+                      "typeSpecies": "Nepalmatoiulus loebli (Mauriès, 1983)",
+                      "typeLocality": "Sindhupalchok District, 40 km north of Kathmandu, near Gosaikund, Yangri ridge",
+                      "remarks": "Mauriès (1983b) described Nepalmatoiulus as a subgenus of Chromatoiulus. Enghoff (1987) elevated it to genus rank, redescribed it, and described ten new species, classifying them into different species groups.",
+                      "species": [
+                        {
+                          "name": "Nepalmatoiulus deharvengi",
+                          "authority": "(Mauriès, 1983)",
+                          "typeLocality": "Manang District, Pisang",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Manang District, Pisang (3000–3180 m), north of Annapurna, between Pisang and Manang (3350 m), Marsyandi, Bagarchap (2550 m)",
+                          "reference": "Mauriès, 1983b; Enghoff, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus dhaulagiri",
+                          "authority": "Enghoff, 1987",
+                          "typeLocality": "Myagdi District, Western Dhaulagiri Himal, Thakur, north of Dhorpatan",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Myagdi District, Western Dhaulagiri Himal, Thakur, north of Dhorpatan (3350 m); S Dhaulagiri Himal, Dhorpatan (3000 m)",
+                          "reference": "Enghoff, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus generalis",
+                          "authority": "Enghoff, 1987",
+                          "typeLocality": "Mustang District, Thasang above Tukuche",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Thasang (3150–3400 m), Chadziou Khola Valley (2700–2900 m), Thakkhola, Kali Gandaki Valley between Annapurna and Dhaulagiri (2530–2600 m); Terhathum District, Tinjure Danda (2450–2750 m); Rasuwa District, Kyanjin Gompa (=Gumba) forest (3800–4100 m), Langtang Valley; Kaski District, Machhapuchhre base camp to Hinku (3400–3800 m), Annapurna region; Parbat District, New Dovan Lodge to Hinku (2500–3000 m), Annapurna region, Annapurna trek from Hinku to Tadapani (2500–3000 m), Annapurna Base Camp (3800–4300 m); Myagdi District, Mudi (2300 m), S Dhaulagiri",
+                          "reference": "Enghoff, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus humlaensis",
+                          "authority": "Mikhaljova, 2025",
+                          "typeLocality": "Humla District, Western Nepal, 34.5 km SE to 41 km E of Simikot (1655–2625 m)",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Western Nepal, 34.5 km SE to 41 km E of Simikot (1655–2625 m)",
+                          "reference": "Mikhaljova, 2025",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus hyalilobus",
+                          "authority": "Enghoff, 1987",
+                          "typeLocality": "Dolpa District, N Dhaulagiri Himal, Ringmo on Phoksundo Lake",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Dolpa District, Northern Dhaulagiri Himal, Ringmo on Phoksundo Lake (3600–4100 m); Suligad Valley (2800–3300 m); Gompa (=Gumba) near Tarakot (3300–3400 m); Myagdi District, Southern Dhaulagiri Himal, Dhorpatan (3000 m)",
+                          "reference": "Enghoff, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus ivanloebli",
+                          "authority": "(Mauriès, 1983)",
+                          "typeLocality": "Sindhupalchok District, 40 km north of Kathmandu, near Gosaikund, Yangri ridge",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sindhupalchok District, 40 km north of Kathmandu, near Gosaikund, Yangri ridge (4700–4800 m); near Mere Danda (3000 m); north face of Mere Danda (3100–3300 m); above Tharepati (3300 m); Tarkeyghyang (2200 m); Rasuwa District, Trisuli Valley, Gosaikund, Sing Gompa (3200 m)",
+                          "reference": "Mauriès, 1983; Enghoff, 1987",
+                          "remarks": "Enghoff (1987) replaced Chromatoiulus (Nepalmatoiulus) loebli Mauriès, 1983 with Nepalmatoiulus ivanloebli Enghoff, 1987 because of the pre-occurrence of the name loebli.",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus juxtapositus",
+                          "authority": "Enghoff, 1987",
+                          "typeLocality": "Parbat and Kaski Districts, between Chitre and Ghandruk, Chitre-side of the Pass",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Parbat and Kaski Districts, between Chitre and Ghandruk, Chitre-side of the Pass (2950–3050 m)",
+                          "reference": "Enghoff, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus karnaliensis",
+                          "authority": "Mikhaljova, 2025",
+                          "typeLocality": "Western Nepal, Karnali Province, Humla District, 12–13.5 km SE of Simikot, Ghatte, Yanchu Khola to Simikot",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Western Nepal, Karnali Province, Humla District, 12–13.5 km SE of Simikot, Ghatte, Yanchu Khola to Simikot (2920–3490 m); Humla District, ca. 12–13 km SE of Simikot (2990–3310 m)",
+                          "reference": "Mikhaljova, 2025",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus martensi",
+                          "authority": "Enghoff, 1987",
+                          "typeLocality": "Solukhumbu District, Mt. Everest region, confluence of Phunki and Imja Drangka",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, Mt. Everest region, confluence of Phunki and Imja Drangka (3250–3350 m)",
+                          "reference": "Enghoff, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus maurièsi",
+                          "authority": "Enghoff, 1987",
+                          "typeLocality": "Gorkha District, Chumling Khola Valley, south of Kalo Pokhari",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Chumling Khola Valley, south of Kalo Pokhari (3600 m); Meme Kharka (3300–3400 m); Djinshi Kharka (3400 m); Chumling Khola (2800 m)",
+                          "reference": "Enghoff, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus pineti",
+                          "authority": "Enghoff, 1987",
+                          "typeLocality": "Mustang District, Taglung",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Taglung (2900 m)",
+                          "reference": "Enghoff, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus smetanai",
+                          "authority": "(Mauriès, 1983)",
+                          "typeLocality": "Sindhupalchok District, Ghumthang-Bahrabise region",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sindhupalchok District, 50 km ENE of Kathmandu (road from Kathmandu to Tibet), Ghumthang-Bahrabise region, NE ridge of Barahbise above Pokhara (2700 m); Lalitpur District, Phulchowki, south of Kathmandu (2500 m); Kavre District, Mahabharat (20 km WSW of Kathmandu) (2350 m); Kathmandu District, Kathmandu Valley, Nagarjun ridge, Jamacho Hill (1900–2100 m), Mt. Phulchowki (2600–2650 m)",
+                          "reference": "Mauriès, 1983; Enghoff, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus sympatricus",
+                          "authority": "Enghoff, 1987",
+                          "typeLocality": "Myagdi District, S Dhaulagiri Himal, Dhorpatan",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Myagdi District, S Dhaulagiri Himal, Dhorpatan (3000 m)",
+                          "reference": "Enghoff, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus uncus",
+                          "authority": "Enghoff, 1987",
+                          "typeLocality": "Ilam District, Gitang Khola Valley",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Ilam District, Gitang Khola Valley (2550 m), Mai Pokhari (2100–2250 m); Panchthar District, upper reach of Maimajhuwa Khola, Dhorpar Kharka (2700 m), between Deurali, Pasupati and Sheldoti (2500 m)",
+                          "reference": "Enghoff, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalmatoiulus zachonoides",
+                          "authority": "Enghoff, 1987",
+                          "typeLocality": "Mustang District, south of Lete",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, south of Lete (2450–2600 m)",
+                          "reference": "Enghoff, 1987",
+                          "isEndemic": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Chordeumatida",
+              "rank": "order",
+              "authority": "Pocock, 1894",
+              "families": [
+                {
+                  "name": "Entomobielziidae",
+                  "rank": "family",
+                  "authority": "Cook, 1896",
+                  "genera": [
+                    {
+                      "name": "Tianella",
+                      "rank": "genus",
+                      "authority": "Attems, 1904",
+                      "typeSpecies": "Tianella fastigata Attems, 1904",
+                      "typeLocality": "Mount Aksu, Przewalski, Kyrgyzstan",
+                      "species": [
+                        {
+                          "name": "Tianella ausobskyi",
+                          "authority": "Shear, 1987",
+                          "typeLocality": "Parbat District, between Chitre and Ghandruk, Chitre side of the Pass",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Parbat District, between Chitre and Ghandruk, Chitre side of the Pass (2950–3050 m); Kaski District, Hinku, Annapurna region (2500–3000 m)",
+                          "reference": "Shear, 1987; Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Tianella bobanga",
+                          "authority": "Shear, 1979",
+                          "typeLocality": "Baglung District, Southern Dhaulagiri Himal, Bobang, south of Dhorpatan",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Baglung District, Southern Dhaulagiri Himal, Bobang, south of Dhorpatan (2500 m); Parbat District, south of Dhaulagiri Himal, between Ghodepani Pass and Ulleri (2460 m)",
+                          "reference": "Shear, 1979",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Tianella daamsae",
+                          "authority": "Shear, 1987",
+                          "typeLocality": "Taplejung District, south of Ghunsa",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, south of Ghunsa (3600–3900 m)",
+                          "reference": "Shear, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Tianella gitanga",
+                          "authority": "Shear, 1987",
+                          "typeLocality": "Ilam District, Gitang Khola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Ilam District, Gitang Khola (2550 m)",
+                          "reference": "Shear, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Tianella jaljalensis",
+                          "authority": "Mauriès, 1988",
+                          "typeLocality": "Sankhuwasabha District, Jaljale Himal, northeast of Kuwapani",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, Jaljale Himal, northeast of Kuwapani (2250–2400 m), ridge above Mangmaya (2800 m), Induwa Khola Valley (2000–2150 m), and northeast of Kuwapani (2400 m); Solukhumbu District, trails from Tamakoshi to Namche Bazar, Taksindu La (2700–3000 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Tianella katmandua",
+                          "authority": "Mauriès, 1988",
+                          "typeLocality": "Lalitpur District, 2 km south of Godawari",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Lalitpur District, 2 km south of Godawari (1700 m); Phulchowki forest (2550–2700 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Tianella lughla",
+                          "authority": "Shear, 1979",
+                          "typeLocality": "Solukhumbu District, Khumbu, Everest region, Lukla",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, Khumbu, Everest region, Lukla (2950 m) and the confluence of Phunki and Imja Drangka, north of Khumjung",
+                          "reference": "Shear, 1979",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Tianella mananga",
+                          "authority": "Shear, 1987",
+                          "typeLocality": "Manang District, Marsyangdi, Timang, above Bagarchhap",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Manang District, Marsyangdi, Timang, above Bagarchhap (2550 m)",
+                          "reference": "Shear, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Tianella mangsingma",
+                          "authority": "Mauriès, 1988",
+                          "typeLocality": "Sankhuwasabha District, Kali Gandaki Valley, south of Mangsima",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, south of Mangsima (2250–2800 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Tianella martensi",
+                          "authority": "Shear, 1979",
+                          "typeLocality": "Mustang District, Thakkhola, Kali Gandaki valley, between Annapurna and Dhaulagiri Himal, Chadziou Khola Valley",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Thakkhola, Kali Gandaki valley, between Annapurna and Dhaulagiri Himal, Chadziou Khola Valley (2530–2900 m), Thakkhola, Thasang above Tukuche (3100–3400 m), Dhampus Khola Valley, near Tukuche (2800–2900 m), Naurikot (2700 m), Lete (2600–2750 m), south of Lete (2450–2600 m), Thasang (3400 m), Kali Gandaki Valley, 2 km north of Kalopani (1550 m); Manang District, south of Annapurna Himal, Pass Ghodepani (2700–2900 m), Ghodepani forest (2750 m)",
+                          "reference": "Shear, 1979; Shear, 1987; Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Tianella smetanai",
+                          "authority": "Mauriès, 1988",
+                          "typeLocality": "Nuwakot District, between Ghopte and Tharepati",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Nuwakot District, between Ghopte and Tharepati (3220–3250 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Tianella sp.",
+                          "authority": null,
+                          "typeLocality": null,
+                          "globalDistribution": null,
+                          "distributionInNepal": "Langtang Khola Valley (1950 m), 2.5 km east of Syaphru (1720 m); Solukhumbu District, trails from Tamakoshi to Namche Bazar, Sete (2900–3250 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": null,
+                          "notes": "Unidentified species"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Kashmireumatidae",
+                  "rank": "family",
+                  "authority": "Mauriès, 1982",
+                  "genera": [
+                    {
+                      "name": "Kashmireuma",
+                      "rank": "genus",
+                      "authority": "Mauriès, 1982",
+                      "typeSpecies": "Kashmireuma nielseni Mauriès, 1982",
+                      "typeLocality": "India",
+                      "species": [
+                        {
+                          "name": "Kashmireuma nepalensis",
+                          "authority": "Mauriès, 1988",
+                          "typeLocality": "Rasuwa District, Langtang Khola Valley, Kyanjin Gompa (=Gumba) forest",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Rasuwa District, Langtang Khola Valley, Kyanjin Gompa (=Gumba) forest (3800–4100 m), north side of Syaphru (3600–3800 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Kashmireuma schawalleri",
+                          "authority": "Shear, 1987",
+                          "typeLocality": "Gorkha District, Daraudi Khola to above Barpak",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Daraudi Khola to above Barpak (3450–3600 m)",
+                          "reference": "Shear, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Kashmireuma sp.",
+                          "authority": null,
+                          "typeLocality": null,
+                          "globalDistribution": null,
+                          "distributionInNepal": "Annapurna Region, vicinity of New Dhovan Lodge in Hinku (2500–3000 m), south of Godhepani Pass (2700 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": null,
+                          "notes": "Unidentified species"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Lankasomatidae",
+                  "rank": "family",
+                  "authority": "Mauriès, 1978",
+                  "genera": [
+                    {
+                      "name": "Nepalella",
+                      "rank": "genus",
+                      "authority": "Shear, 1979",
+                      "typeSpecies": "Nepallela khumbua Shear, 1979",
+                      "typeLocality": "Solukhumbu District, Khumbu, Mt. Everest region, confluence of Phunki and Imja Drangka, northeast of Khumjung",
+                      "species": [
+                        {
+                          "name": "Nepalella deharvengi",
+                          "authority": "Mauriès, 1988",
+                          "typeLocality": "Solukhumbu District, trails from Tamakoshi to Namche Bazar: Sete",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, trails from Tamakoshi to Namche Bazar: Sete (2900–3500 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalella gairiensis",
+                          "authority": "Mauriès, 1988",
+                          "typeLocality": "Solukhumbu District, trails from Tamakoshi to Namche Bazar: Gairi",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, trails from Tamakoshi to Namche Bazar: Gairi",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalella gunsa",
+                          "authority": "Shear, 1987",
+                          "typeLocality": "Taplejung District, south of Ghunsa",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, south of Ghunsa (3600–3800 m)",
+                          "reference": "Shear, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalella jaljalae",
+                          "authority": "Mauriès, 1988",
+                          "typeLocality": "Sankhuwasabha District, Jaljale Himal",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, Jaljale Himal, south of Mangsima (2200 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalella khumbua",
+                          "authority": "Shear, 1979",
+                          "typeLocality": "Solukhumbu District, Khumbu, Mt. Everest region, confluence of Phunki and Imja Drangka, northeast of Khumjung",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, Khumbu, Mt. Everest region, confluence of Phunki and Imja Drangka northeast of Khumjung (3250–3300 m)",
+                          "reference": "Shear, 1979",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalella phulcokia",
+                          "authority": "Mauriès, 1988",
+                          "typeLocality": "Lalitpur District, Phulchowki",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Lalitpur District, Phulchowki (2250–2650 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalella ringmoensis",
+                          "authority": "Mauriès, 1988",
+                          "typeLocality": "Solukhumbu District, trails from Tamakoshi to Namche Bazar: Gonda, before Ringmo",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, trails from Tamakoshi to Namche Bazar: Gonda, before Ringmo (2750–3000 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalella taplejunga",
+                          "authority": "Shear, 1987",
+                          "typeLocality": "Taplejung District, ridge Lasse Dhara and pasture Lassetham",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, ridge Lasse Dhara and pasture Lassetham (3000–3300 m), Yalung (3450 m), Simbuwa Khola (3450 m)",
+                          "reference": "Shear, 1987",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalella thodunga",
+                          "authority": "Shear, 1979",
+                          "typeLocality": "Ramechhap District, Thodung near Jiri and Those",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Ramechhap District, Thodung near Jiri and Those (3200 m)",
+                          "reference": "Shear, 1979",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalella tragsindola",
+                          "authority": "Mauriès, 1988",
+                          "typeLocality": "Solukhumbu District, trails from Tamakoshi to Namche Bazar: east of Taksindu La",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, trails from Tamakoshi to Namche Bazaar: east of Taksindu La (2450–3000 m), Taksindu La (2900–3000 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Nepalella sp.",
+                          "authority": null,
+                          "typeLocality": null,
+                          "globalDistribution": null,
+                          "distributionInNepal": "Solukhumbu District, Khumbu, Mt. Everest region, Pare (3550 m), Lukla (2950 m), trails from Tamakoshi to Namche Bazar, Changma (1900 m); Mustang District, Thakkhola, Kali Gandaki Valley, between Annapurna and Dhaulagiri Himal, Dhampus Khola Valley, near Tukuche (2890–2930 m), Thakkhola, ascending Dapa Col (3900–4100 m); eastern Nepal, Thinsang La Pass and Thodung (2330–2500 m); Rasuwa District, northern flank above Syaphru (3650 m), between Ghopte and Tharepati (3220 m)",
+                          "reference": "Mauriès, 1988",
+                          "isEndemic": null,
+                          "notes": "Unidentified species"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Platydesmida",
+              "rank": "order",
+              "families": [
+                {
+                  "name": "Andrognathidae",
+                  "rank": "family",
+                  "genera": [
+                    {
+                      "name": "Pseudodesmus",
+                      "rank": "genus",
+                      "species": [
+                        {
+                          "name": "Pseudodesmus sp.",
+                          "authority": null,
+                          "typeLocality": null,
+                          "globalDistribution": "Nepal <2000m",
+                          "distributionInNepal": "Nepal",
+                          "reference": "Golovatch and Martens 1996, Golovatch and Martens 2018",
+                          "isEndemic": null,
+                          "notes": "Unidentified species"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Polydesmida",
+              "rank": "order",
+              "authority": "Leach, 1815",
+              "families": [
+                {
+                  "name": "Haplodesmidae",
+                  "rank": "family",
+                  "authority": "Cook, 1895",
+                  "genera": [
+                    {
+                      "name": "Koponenius",
+                      "rank": "genus",
+                      "authority": "Golovatch & VandenSpiegel, 2014",
+                      "typeSpecies": "Koponenius unicornis Golovatch & VandenSpiegel, 2014",
+                      "typeLocality": "Darjeeling District, Kalimpong (Gandhi Ashram), West Bengal, India",
+                      "species": [
+                        {
+                          "name": "Koponenius biramus",
+                          "authority": "Golovatch & VandenSpiegel, 2014",
+                          "typeLocality": "Lalitpur District, Godawari, the foot of Phulchowki",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Lalitpur District, Godawari, the foot of Phulchowki (1750 m)",
+                          "reference": "Golovatch and VandenSpiegel, 2014",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Koponenius schawalleri",
+                          "authority": "Golovatch & VandenSpiegel, 2016",
+                          "typeLocality": "Chitwan District, Chitwan NP near Sauraha",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Chitwan District, Chitwan NP, near Sauraha (150 m)",
+                          "reference": "Golovatch and VandenSpiegel, 2016",
+                          "isEndemic": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Opisotretidae",
+                  "rank": "family",
+                  "genera": [
+                    {
+                      "name": "Martensodesmus",
+                      "rank": "genus",
+                      "authority": "Golovatch, 1987",
+                      "typeSpecies": "Martensodesmus himalayensis Golovatch, 1987",
+                      "species": [
+                        {
+                          "name": "Martensodesmus himalayensis",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Gorkha District, Buri Gandaki, Dobhan to Jagat",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Buri Gandaki, Dobhan to Jagat (1100–1300 m), Jagat to Opposite Pangshing (1650–1750 m)",
+                          "reference": "Golovatch, 1987a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Martensodesmus nagarjungicus",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Kathmandu District, Nagarjun, Mt. Jamacho",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kathmandu District, Nagarjun, Mt. Jamacho (1900–2100 m)",
+                          "reference": "Golovatch, 1987a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Martensodesmus sherpa",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Gorkha District, Daraudi Khola, between Nayasanghu and Gorkha",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Daraudi Khola, between Nayasanghu and Gorkha (1200 m), Daraudi Khola, between Dhodeni and Mahatar (750–900 m), Daraudi Khola, between Barpak and Dhodeni (900–1100 m); Dhading District, Ankhu Sanghu (650 m)",
+                          "reference": "Golovatch, 1987a",
+                          "isEndemic": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Paradoxosomatidae",
+                  "rank": "family",
+                  "authority": "Daday, 1889",
+                  "genera": [
+                    {
+                      "name": "Anoplodesmus",
+                      "rank": "genus",
+                      "authority": "Pocock, 1895",
+                      "typeSpecies": "Anoplodesmus anthracinus Pocock, 1895",
+                      "typeLocality": "Rangoon, Myanmar",
+                      "species": [
+                        {
+                          "name": "Anoplodesmus affinis",
+                          "authority": "(Golovatch, 1990)",
+                          "typeLocality": "Lalitpur District, Kathmandu Valley, Mt. Phulchowki",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Lalitpur District, Kathmandu Valley, Mt. Phulchowki (2475–2700 m)",
+                          "reference": "Golovatch, 1990a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Anoplodesmus cylindricus",
+                          "authority": "(Carl, 1935)",
+                          "typeLocality": "Darjeeling (Sikkim)",
+                          "globalDistribution": "Nepal and India",
+                          "distributionInNepal": "Sankhuwasabha District, Moyam (1870–2430 m), above Pawakhola (2600–2800 m); Arun Valley, between Mudhe and Hururu (2050–2150 m); Lalitpur District, Kathmandu Valley, Mt. Phulchowki (2600–2650 m), Godawari at foot of Mt. Phulchowki (1770 m); Kathmandu District, Shivapuri Hill (2100–2300 m); Ilam District, Gitang Khola (2550 m), Maipokhari (2100–2250 m), between Maipokhari and Gitang Khola Valley (1750–2100 m); Panchthar District, upper reaches of Maimajuwa Khola (2250–2500 m), between Deurali Pass, Puspati and Sheldoti (2300–2850 m), Grat (Ridge) between Sheldoti and Paniparuwa (2200–2450 m), Paniparuwa (2300 m), Dhorpar Kharka (2700 m); Taplejung District, from southeast of Yamphudin to Yamphudin (1650–2000 m), Yamphudin (1650–1800 m), above Yamphudin, left bank of Kabeli Khola (1800–2000 m), path to Omje Kharka in Omje Khola Valley, northwest of Yamphudin (2400–2500 m), Omje Kharka northwest of Yamphudin (2300–2500 m), descent from Pass Deurali to Hellok (2000–2600 m), Hellok in Tamur Valley (2000 m), Lungthung waterfall to bamboo bridge (1800–2150 m); Ramechhap District, Mahabir Khola, east of Shivalaya (2500–2600 m); Khotang District, valley of northwest of Phedi (1900 m)",
+                          "reference": "Golovatch, 1990a; Golovatch, 2016a",
+                          "synonyms": "Akribosoma cylindrica Carl, 1935; Paranedyopus cylindricus Golovatch, 1990a",
+                          "isEndemic": false
+                        },
+                        {
+                          "name": "Anoplodesmus magnus",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Panchthar District, upper reaches of Maimajuwa Khola, Dhorpar Kharka",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Panchthar District, upper reaches of Mai Majuwa Khola, Dhorpar Kharka (2700 m)",
+                          "reference": "Golovatch, 2015a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Anoplodesmus martensi",
+                          "authority": "(Golovatch, 1990)",
+                          "typeLocality": "Rasuwa District, Trisuli Valley, Gosaikund, Sing Gompa",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Rasuwa District, Trisuli Valley, Gosaikund, Sing Gompa (3200 m), Gosaikund (2700–3000 m), Chandanbari and Lauribina, Danje Guard Post (3100 m); Gorkha District, Chumling Khola (3000–3400 m), Djingshi Kharka (3050–3400 m), south of Kalo Pokhari (3600 m), northwest of Pass Rupina La, between Kalo Pokhari and Tabruk, Chumling Khola (3700 m); Manang District, Marsyangdi, between Thanchok and Chame (2550 m), above Bagarchhap (2250 m); Solukhumbu District, Junbesi (2700 m)",
+                          "reference": "Golovatch, 1990a; Golovatch, 2014; Golovatch, 2016a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Anoplodesmus schawalleri",
+                          "authority": "(Golovatch, 1990)",
+                          "typeLocality": "Sankhuwasabha District, Arun Valley, between Mudhe and Hururu",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, Arun Valley, between Mudhe and Hururu (2050–2150 m)",
+                          "reference": "Golovatch, 1990a",
+                          "synonyms": "Paranedyopus schawalleri Golovatch, 1990a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Anoplodesmus similis",
+                          "authority": "(Golovatch, 1990)",
+                          "typeLocality": "Sindhupalchok District, ascent to Pass Ting Sang La from Bikuti",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sindhupalchok District, ascent to Pass Ting Sang La from Bikuti (2300–3000 m); Dolakha District, Jiri (2600–2900 m), Mt. Cherdung near Jiri (2900 m)",
+                          "reference": "Golovatch, 1990a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Anoplodesmus spinosus",
+                          "authority": "Golovatch, 2016",
+                          "typeLocality": "Solukhumbu District, below Pangom",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, below Pangom (2500 m)",
+                          "reference": "Golovatch, 2016a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Anoplodesmus subcylindricus",
+                          "authority": "(Carl, 1935)",
+                          "typeLocality": "Palnis (Palni Hills), South India",
+                          "globalDistribution": "South India and Nepal",
+                          "distributionInNepal": "Reported from Nepal but evidence uncertain",
+                          "reference": "Nguyen, 2010; Golovatch and Wesener, 2016; Golovatch and Martens, 2018",
+                          "remarks": "Carl (1932) described this species from South India. Nguyen (2010) mentioned that this species is also reported from Nepal, but there is no evidence supporting this claim. Golovatch and Martens (2018) also mentioned this species from Nepal. Hollier et al. (2020) listed millipedes described by Carl (1932) but did not include Nepal. There is no proper evidence for this species occurring in Nepal.",
+                          "isEndemic": false,
+                          "isUncertain": true
+                        },
+                        {
+                          "name": "Anoplodesmus sp.",
+                          "authority": null,
+                          "typeLocality": null,
+                          "globalDistribution": null,
+                          "distributionInNepal": "Makawanpur District, Mahabharat Mountains, Daman (2500–2900 m); Terhathum District, Tinjure Danda (2450 m); Mustang District, south of Lete (2450–2600 m)",
+                          "reference": "Golovatch, 1990a",
+                          "isEndemic": null,
+                          "notes": "Unidentified species"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Beronodesmoides",
+                      "rank": "genus",
+                      "authority": "Golovatch, 2015",
+                      "typeSpecies": "Beronodesmoides anteriporus Golovatch, 2015",
+                      "typeLocality": "Sankhuwasabha District, above Pawakhola",
+                      "species": [
+                        {
+                          "name": "Beronodesmoides anteriporus",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Sankhuwasabha District, above Pawakhola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, above Pawakhola (2100–2300 m); Taplejung District, upper Simbuwa Khola Valley (3250–3350 m), southeast of Yamphudin to Yamphudin (1650–2000 m)",
+                          "reference": "Golovatch, 2015; Golovatch, 2016c",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmoides bifidus",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Dolakha District, Dadar Mt. Range, southwest of Kalinchok",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Dolakha District, Dadar Mt. Range, southwest of Kalinchok (3100 m)",
+                          "reference": "Golovatch, 2015",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmoides lobatus",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Sankhuwasabha District, from Thudam to Gabri Khola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, from Thudam to Gabri Khola (4000–4250 m), descent from Meropapa La to Yumutanga River (4600 m), Kongla Khola, east of Thudam (4100–4200 m)",
+                          "reference": "Golovatch, 2015; Golovatch, 2016c; Golovatch et al., 2016",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmoides longifemoratus",
+                          "authority": "Golovatch, 2016",
+                          "typeLocality": "Solukhumbu District, Sanam",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, Sanam (2700–2800 m)",
+                          "reference": "Golovatch, 2016a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmoides martensi",
+                          "authority": "Golovatch, 2016",
+                          "typeLocality": "Panchthar District, above Maimajhuwa Khola, Dhorpar Kharka",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Panchthar District, above Maimajhuwa Khola, Dhorpar Kharka (2700 m)",
+                          "reference": "Golovatch, 2016c",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmoides montigena",
+                          "authority": "Golovatch, 2016",
+                          "typeLocality": "Solukhumbu District, southwest Mt. Everest region: Pare",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, southwest Mt. Everest region: Pare (3550 m)",
+                          "reference": "Golovatch, 2016c",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmoides typicus",
+                          "authority": "Golovatch, 2016",
+                          "typeLocality": "Gorkha District, Chumling Khola, Djinshi Kharka",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Chumling Khola, Djinshi Kharka (3400 m)",
+                          "reference": "Golovatch, 2016c",
+                          "isEndemic": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Beronodesmus",
+                      "rank": "genus",
+                      "authority": "Golovatch, 2014",
+                      "typeSpecies": "Beronodesmus pallidus Golovatch, 2014",
+                      "typeLocality": "Rasuwa District, Langtang Valley, Kyanjin Gompa forest",
+                      "species": [
+                        {
+                          "name": "Beronodesmus curtispinus",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Dolpa District, Northern Dhaulagiri Himal, ascent to Pass Baga La",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Dolpa District, Northern Dhaulagiri Himal, ascent to Baga La Pass (4500 m)",
+                          "reference": "Golovatch, 2015a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmus distospinosus",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Taplejung District, Yamphudin, ascent to Pass Deurali",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, Yamphudin, ascent to Pass Deurali (2700–3080 m), Omje Kharka in Omje Valley (2300–2500 m) northwest of Yamphudin, southeast of Yamphudin to Yamphudin (1650–2000 m)",
+                          "reference": "Golovatch, 2015; Golovatch, 2016c",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmus gorkhalis",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Gorkha District, Chumling Khola, Djingshi Kharka",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Chumling Khola, Djingshi Kharka (3050–3400 m), Meme Kharka (3300–3450 m), Chumling Khola and Deurali Khola to above Barpak (3450–3600 m); Dolpa District, Northern Dhaulagiri Himal; Gompa (=Gumba) near Tarakot (3300–3400 m)",
+                          "reference": "Golovatch, 2015; Golovatch, 2016c; Golovatch et al., 2016",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmus latispinosus",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Taplejung District, Lassetham Kharka, northwest of Yamphudin",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, Lassetham Kharka, northwest of Yamphudin, upper Simbuwa Khola (3300–3500 m), ascent to Lassetham Kharka (3000–3150 m); Myagdi District, Southern Dhaulagiri Himal, Dhorpatan (3000 m); Sankhuwasabha District, Arun Valley, Chichila (1900–2000 m), between Mudhe and Hururu (2050–2150 m); Solukhumbu District, Hinku Drangka Khola bridge (2000 m); Ilam District, Mai Pokhari (2100–2200 m); Panchthar District, above Maimajuwa Khola, Dhorpar Kharka (2700 m)",
+                          "reference": "Golovatch, 2015a; Golovatch, 2016a; Golovatch, 2016c; Golovatch et al., 2016",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmus longispinus",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Taplejung District, above Olangchung Gola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, above Olangchung Gola (3600–3800 m), south of Ghunsa (3900 m), Lassetham Kharka, northwest of Yamphudin (3300–3500 m), south of Ghunsa (4270 m); Myagdi District, southern Dhaulagiri Himal, Dhorpatan (3000 m); Sankhuwasabha District, above Pawakhola (2600–2800 m); Terhathum District, Tinjure Danda, Chauki to Basantpur (2550–2650 m); Gorkha District, Daraudi Khola to above Barpak (3000–3300 m)",
+                          "reference": "Golovatch, 2015a; Golovatch, 2016c; Golovatch et al., 2016",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmus martensi",
+                          "authority": "Golovatch, VandenSpiegel & Semenyuk, 2016",
+                          "typeLocality": "Mustang District, Thakkhola, Kali Gandaki Valley, between Annapurna and Dhaulagiri Himal, Chadziuo Khola Valley near Lete and Ghasa",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Thakkhola, Kali Gandaki Valley, between Annapurna and Dhaulagiri Himal, Chadziuo Khola Valley near Lete and Ghasa (2650 m)",
+                          "reference": "Golovatch et al., 2016",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmus minutus",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Taplejung District, Lassetham Kharka, northwest of Yamphudin",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, Lassetham Kharka, northwest of Yamphudin (3300–3500 m)",
+                          "reference": "Golovatch, 2015a; Golovatch et al., 2016",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmus pallidus",
+                          "authority": "Golovatch, 2014",
+                          "typeLocality": "Rasuwa District, Langtang Valley, Kyanjin Gompa Forest",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Rasuwa District, Langtang Valley, Kyanjin Gompa Forest (3800–4100 m)",
+                          "reference": "Golovatch, 2014b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmus serratus",
+                          "authority": "Golovatch, VandenSpiegel & Semenyuk, 2016",
+                          "typeLocality": "Taplejung District, pasture Lassetham northwest of Yamphudin",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, pasture Lassetham northwest of Yamphudin (3300–3500 m)",
+                          "reference": "Golovatch et al., 2016",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmus simplex",
+                          "authority": "Golovatch, 2016",
+                          "typeLocality": "Kaski District, above Dhampus",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kaski District, above Dhampus (2100 m)",
+                          "reference": "Golovatch, 2016c; Golovatch et al., 2016",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Beronodesmus sinuatospinus",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Ilam District, Mai Pokhari",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Ilam District, Mai Pokhari (2150–2250 m)",
+                          "reference": "Golovatch, 2015a; Golovatch, 2016c",
+                          "isEndemic": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Chondromorpha",
+                      "rank": "genus",
+                      "authority": "Silvestri, 1897",
+                      "typeSpecies": "Chondromorpha severini Silvestri, 1897",
+                      "typeLocality": "Madras, India",
+                      "species": [
+                        {
+                          "name": "Chondromorpha greke",
+                          "authority": "Golovatch, 2022",
+                          "typeLocality": "Lumbini Province, Banke District, 15 km SSE of Khaskusma, 30 km NW of Lamahi, Kali Khola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Lumbini Province, Banke District, 15 km SSE of Khaskusma, 30 km NW of Lamahi, Kali Khola (235 m)",
+                          "reference": "Golovatch, 2022",
+                          "isEndemic": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Delarthrum",
+                      "rank": "genus",
+                      "authority": "Attems, 1936",
+                      "typeSpecies": "Delarthrum obscurum Attems, 1936",
+                      "typeLocality": "Chhangla Gali, Abbottabad district, Punjab, Pakistan",
+                      "remarks": "Golovatch (2014) synonymized Nepalomorpha Golovatch, 1994; Parorthomorpha Golovatch, 1994; Martensosoma Golovatch, 1992; Armolites Golovatch, 1984; Orophosoma Jeekel, 1980 into Delarthrum Attems, 1936.",
+                      "species": [
+                        {
+                          "name": "Delarthrum aberrans",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Sindhupalchok/Dolakha District, between Pass Thingsang La and Thodung, path from ridge above Jiri to Shivalaya",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sindhupalchok/Dolakha District, between Pass Thingsang La and Thodung path from ridge above Jiri to Shivalaya (2500–2600 m), near Skhetrapa (1000 m); Ramechhap District, Mahabir Khola, east of Shivalaya (2500–2600 m)",
+                          "reference": "Golovatch, 1996; Golovatch, 2016a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum affinis",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Kaski District, Southern Annapurna Himal, slopes below Naudanda to Suikheth Valley",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kaski District, Southern Annapurna Himal, slopes below Naudanda to Suikheth Valley (1400 m)",
+                          "reference": "Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum alatum",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Sankhuwasabha District, Arun Valley, south of Mudhe",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, Arun Valley, south of Mudhe (1900–2100 m)",
+                          "reference": "Golovatch, 1996",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum andreevi",
+                          "authority": "Golovatch, 2014",
+                          "typeLocality": "Kaski District, Pokhara, Annapurna Trek, above Bhichok (=Bhichuk)",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kaski District, Pokhara, Annapurna Trek, above Bhichok (=Bhichuk) (1800 m)",
+                          "reference": "Golovatch, 2014b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum arunense",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Sankhuwasabha District, Arun Valley, between Mudhe and Hururu",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, Arun Valley, between Mudhe and Hururu (2050–2150 m), between Chichila and Bhotebas (1850–2100 m), Chichila (1900–2100 m)",
+                          "reference": "Golovatch, 1994a",
+                          "synonyms": "Nepalomorpha arunensis Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum beroni",
+                          "authority": "Golovatch, 2014",
+                          "typeLocality": "Kaski District, Pokhara",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kaski District, Pokhara (900 m); Palpa District, Tansen; Nuwakot District, Betrawati (600–1000 m)",
+                          "reference": "Golovatch, 2014b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum bifidum",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Terhathum/Dhankuta District, Tinjure Danda, Chauki to Basantpur",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Terhathum/Dhankuta District, Tinjure Danda, Chauki to Basantpur (2250–2650 m)",
+                          "reference": "Golovatch, 1996",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum chulingensis",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Gorkha District, Chumling Khola Valley, Meme Kharka",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Chumling Khola Valley, Meme Kharka (3300–3400 m), Chumling Khola Valley (3000–3400 m), northwest of Rupina La between Kalo Pokhari and Tabruk Kharka (3400–3700 m)",
+                          "reference": "Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum communicans",
+                          "authority": "(Golovatch, 1992)",
+                          "typeLocality": "Mustang District, Kali Gandaki Valley, Thakkhola, Chadziou Khola Valley",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Kali Gandaki Valley, Thakkhola, Chadziou Khola Valley (2650 m)",
+                          "reference": "Golovatch, 1992",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum curtisoma",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Sankhuwasabha District, Arun Valley, between Mudhe and Hururu",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, Arun Valley, between Mudhe and Hururu (2050–2150 m)",
+                          "reference": "Golovatch, 2015a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum curtum",
+                          "authority": "Golovatch, 2014",
+                          "typeLocality": "Nuwakot District, Betrawati",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Nuwakot District, Betrawati (600–1000 m); Rasuwa District, Langtang Valley",
+                          "reference": "Golovatch, 2014b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum densesetosum",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Myagdi District, Myagdi Khola, Darwang",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Myagdi District, Myagdi Khola, Darwang (2400 m)",
+                          "reference": "Golovatch, 2015",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum elegans",
+                          "authority": "(Golovatch, 1992)",
+                          "typeLocality": "Kathmandu District, Kathmandu City and surrounding hills",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kathmandu District, Kathmandu City and surrounding hills (1350 m)",
+                          "reference": "Golovatch, 1992",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum extremum",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Taplejung District, upper Tamur Valley, rest-house and side valley",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, upper Tamur Valley, rest-house and side valley (2450 m)",
+                          "reference": "Golovatch, 1996",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum facile",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Taplejung District, upper Tamur Valley, from Bamboo Bridge to the rest-house and side valley",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, upper Tamur Valley, from Bamboo Bridge to the rest-house and side valley (2200–2400 m)",
+                          "reference": "Golovatch, 1996",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum fechteri",
+                          "authority": "(Golovatch, 1990)",
+                          "typeLocality": "Mustang District, Kali Gandaki Valley, Annapurna and Dhaulagiri Himal; Thasang above Tukuche",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Kali Gandaki Valley, Annapurna and Dhaulagiri Himal; Thasang above Tukuche (3150 m), Chadziou Khola Valley (2330–2600 m), ascent to Thasang (2600–2900 m), and Purano Marpha (3100–3200 m)",
+                          "reference": "Golovatch, 1990a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum foveatum",
+                          "authority": "(Golovatch, 1992)",
+                          "typeLocality": "Rasuwa District, Trisuli Valley, between Ramche and Dhunche",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Rasuwa District, Trisuli Valley, between Ramche and Dhunche (1800–2000 m)",
+                          "reference": "Golovatch, 1992",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum furcatum",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Lalitpur District, Kathmandu and surrounding hills, Mt. Phulchowki",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Lalitpur District, Kathmandu and surrounding hills, Mt. Phulchowki (2000 m); Rasuwa District, Langtang Valley, Syaphrubesi (1600 m); Nuwakot District, Betrawati (600–1000 m)",
+                          "reference": "Golovatch, 1996; Golovatch, 2014b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum gracile",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Lalitpur District, Godawari, foot of Mt. Phulchowki",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Lalitpur District, Godawari, foot of Mt. Phulchowki (1750 m)",
+                          "reference": "Golovatch, 2015",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum granulosum",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Sankhuwasabha District, Arun Valley, between Hururu and Chichila",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, Arun Valley, between Hururu and Chichila (2000 m), bottom of Arun Valley, between Hedangna and Num (950–1000 m)",
+                          "reference": "Golovatch, 1994a; Golovatch, 2016c",
+                          "synonyms": "Parorthomorpha granulosa Golovatch, 1994a = Delarthrum granulosum Golovatch, 2014",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum heterotergale",
+                          "authority": "Golovatch, 2014",
+                          "typeLocality": "Nuwakot District, Betrawati",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Nuwakot District, Betrawati (600–1000 m)",
+                          "reference": "Golovatch, 2014b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum hirsutum",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Mustang District, Thakkhola, Kali Gandaki Valley, ascent to Dapa-Col above Tukuche",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Thakkhola, Kali Gandaki Valley, ascent to Dapa-Col above Tukuche (3900–4100 m); Myagdi District, Myagdi Khola, Darwang (2400 m)",
+                          "reference": "Golovatch, 1994a; Golovatch, 2015",
+                          "synonyms": "Nepalomorpha hirsuta Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum intermedium",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Gorkha District, Khorlabesi to Dobhan",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Khorlabesi to Dobhan (1000–1100 m)",
+                          "reference": "Golovatch, 1994a",
+                          "synonyms": "Parorthomorpha intermedia Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum invocatum",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Taplejung District, descent from Pass Deurali to Hellok",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, descent from Pass Deurali to Hellok (2600–2800 m)",
+                          "reference": "Golovatch, 1996",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum kuznetsovi",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Myagdi District, southwest of Dhaulagiri, Dhorpatan",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Myagdi District, southwest of Dhaulagiri, Dhorpatan (3000 m)",
+                          "reference": "Golovatch, 1994a; Golovatch, 2014b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum longisetum",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Kathmandu District, Kathmandu Valley, Nagarjun Mt. Ridge",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kathmandu District, Kathmandu Valley, Nagarjun Mt. Ridge (1400–1600 m); Dhading District, below Samari Bhanjyang (1000–1300 m)",
+                          "reference": "Golovatch, 1994a; Golovatch, 2016c",
+                          "synonyms": "Parorthomorpha longiseta Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum longispinum",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Ilam District, Mai Pokhari",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Ilam District, Mai Pokhari (2150–2250 m)",
+                          "reference": "Golovatch, 1996",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum modestum",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Sankhuwasabha District, between Pomari La and Pawakhola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, between Pomari La and Pawakhola (3450–3600 m), above Pawakhola (2600–2800 m)",
+                          "reference": "Golovatch, 1996",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum nyakensis",
+                          "authority": "(Golovatch, 1992)",
+                          "typeLocality": "Gorkha District, Buri Gandaki Valley, Nyak",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Buri Gandaki Valley, Nyak (2270–2450 m)",
+                          "reference": "Golovatch, 1992",
+                          "synonyms": "Martensosoma nyakense Golovatch, 1992",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum philosophicum",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Gorkha/Dhading District, Buri Gandaki Valley, Nyak, Jagat to opposite Panshing",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha/Dhading District, Buri Gandaki Valley, Nyak, Jagat to opposite Panshing (1650 m), Nyak (2270–2450 m)",
+                          "reference": "Golovatch, 1994a",
+                          "synonyms": "Parorthomorpha philosophica Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum planifemur",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Kaski District, above Pothana",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kaski District, above Pothana (2000 m)",
+                          "reference": "Golovatch, 2015",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum prolixum",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Terhathum/Dhankuta District, Tinjure Danda, from Chauki to Basantapur",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Terhathum/Dhankuta District, Tinjure Danda, from Chauki to Basantapur (2250–2650 m)",
+                          "reference": "Golovatch, 1996",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum quadridentatum",
+                          "authority": "Golovatch, 2016",
+                          "typeLocality": "Myagdi District, ascent to Pass Jaljala",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Myagdi District, ascent to Pass Jaljala (3000–3200 m)",
+                          "reference": "Golovatch, 2016b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum schawalleri",
+                          "authority": "(Golovatch, 1992)",
+                          "typeLocality": "Taplejung District, upper Tamur Valley, from Lungthung waterfalls to Bamboo Bridge",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, upper Tamur Valley, from Lungthung waterfalls to Bamboo Bridge (1800–2150 m), confluence of Kabeli Khola and Tada Khola (1000 m); Sankhuwasabha District, Arun Valley, between Hururu and Chichila",
+                          "reference": "Golovatch, 1992; Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum setosum",
+                          "authority": "Golovatch, 2014",
+                          "typeLocality": "Palpa District, Tansen",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Palpa District, Tansen",
+                          "reference": "Golovatch, 2014b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum silvestre",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Rasuwa District, Trisuli Valley, Gosaikund",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Rasuwa District, Trisuli Valley, Gosaikund (2400–2600 m), near Dhunche (2000–2100 m); Solukhumbu District, above Bung (2200–2500 m), Hinku Drangka Khola bridge (2000 m), Junbesi to Ringmo (2700–3000 m), above Nunthala (2300–2500 m), Sibuje (2300–2700 m), Salpa Pass (3400 m)",
+                          "reference": "Golovatch, 1994a; Golovatch, 2016a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum similis",
+                          "authority": "(Golovatch, 1992)",
+                          "typeLocality": "Myagdi District, between Sikha and Pass Ghodepani",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Myagdi District, between Sikha and Pass Ghodepani (2300–2700 m)",
+                          "reference": "Golovatch, 1992",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum simplex",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Gorkha District, Buri Gandaki, from Jagat to Opposite Pangshing",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Buri Gandaki, from Jagat to Opposite Pangshing (1650 m)",
+                          "reference": "Golovatch, 1996",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum simulans",
+                          "authority": "(Carl, 1935)",
+                          "typeLocality": "Solukhumbu District, Rongshar Valley",
+                          "globalDistribution": "China (Tibet), Nepal",
+                          "distributionInNepal": "Solukhumbu District, Rongshar Valley (2896–3353 m)",
+                          "reference": "Carl, 1935",
+                          "isEndemic": false
+                        },
+                        {
+                          "name": "Delarthrum spectabile",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Mustang District, Thakkhola, Kali Gandaki Valley, between Annapurna and Dhaulagiri Himal, Chadziou Khola Valley",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Thakkhola, Kali Gandaki Valley, between Annapurna and Dhaulagiri Himal, Chadziou Khola Valley (2650 m)",
+                          "reference": "Golovatch, 1994a; Golovatch, 2016c",
+                          "synonyms": "Parorthomorpha spectabilis Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum spinigerum",
+                          "authority": "(Golovatch, 1992)",
+                          "typeLocality": "Gorkha District, from Arughat to Soti",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, from Arughat to Soti (600–700 m), between Dhodeni and Mahatar (750–900 m) Daraudi Khola; Dhading District, between Tharpu and Kotunje (1300–1400 m)",
+                          "reference": "Golovatch, 1992",
+                          "synonyms": "Martensosoma spiniger Golovatch, 1992",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum splendens",
+                          "authority": "(Golovatch, 1992)",
+                          "typeLocality": "Taplejung District, from southeast of Yamphudin to Yamphudin",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, from southeast of Yamphudin to Yamphudin (1650–2000 m); Sankhuwasabha District, Arun Valley, between Mudhe and Hururu (2050–2150 m)",
+                          "reference": "Golovatch, 1992; Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum subalatum",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Sankhuwasabha District, above Pawakhola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, above Pawakhola (2600–2800 m)",
+                          "reference": "Golovatch, 1996",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum subsimulans",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Taplejung District, between Lassetham pasture and Simbuwa Khola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, between Lassetham pasture and Simbuwa Khola (3100–3300 m)",
+                          "reference": "Golovatch, 1996",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum telnovi",
+                          "authority": "Golovatch, 2023",
+                          "typeLocality": "Karnali Province, Humla District, ca. 12–13 km SE of Simikot",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Karnali Province, Humla District, ca. 12–13 km SE of Simikot, Ghatte, Yanchu Khola to Simikot (2920–3490 m), 13.5–13.9 km SE of Simikot (3445–3880 m), 34.5 km SE–41 km E of Simikot (1655–3525 m); Mugu District, Rara National Park, 30–31 km NNW of Jumla (3290–2940 m); Jumla District, 14 km NE–9 km NNW of Jumla (2990–3110 m)",
+                          "reference": "Golovatch, 2023",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum tenuitergale",
+                          "authority": "Golovatch, 2014",
+                          "typeLocality": "Rasuwa District, Langtang National Park, Chandanbari",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Rasuwa District, Langtang National Park, Chandanbari (3250 m)",
+                          "reference": "Golovatch, 2014b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum tergalis",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Mustang District, Thakkhola, Kali Gandaki Valley, between Annapurna and Dhaulagiri Himal, Chadziuo Khola Valley",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Thakkhola, Kali Gandaki Valley, between Annapurna and Dhaulagiri Himal, Chadziuo Khola Valley (2650 m)",
+                          "reference": "Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum tuberculatum",
+                          "authority": "(Golovatch, 1994)",
+                          "typeLocality": "Gorkha District, Daraudi Khola above Barpak",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Daraudi Khola above Barpak (3000–3300 m)",
+                          "reference": "Golovatch, 1994a",
+                          "synonyms": "Parorthomorpha tuberculata Golovatch, 1994a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum typicum",
+                          "authority": "Golovatch, 2014",
+                          "typeLocality": "Rasuwa District, Langtang National Park, Danje Checkpost",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Rasuwa District, Langtang National Park, Danje Checkpost (3100 m)",
+                          "reference": "Golovatch, 2014b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Delarthrum uncum",
+                          "authority": "(Golovatch, 1996)",
+                          "typeLocality": "Taplejung District, Yamphudin, ascent to Deurali Pass",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, Yamphudin, ascent to Deurali Pass (2700–3420 m), above Yamphudin, left bank of Kabeli Khola (1800–2000 m), Omja Kharka (2300–2500 m) northwest of Yamphudin, ascent to Lassetham pasture from Omja Khola (2400–3150 m); Panchthar District, Paniparuwa (2300 m); Ilam District, Mai Pokhari (2100–2200 m), Gitang Khola (2599 m); Terhathum/Dhankuta District, Tinjure Danda, Chauki to Basantapur (2550–2650 m)",
+                          "reference": "Golovatch, 1996; Golovatch, 2015",
+                          "isEndemic": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Hirtodrepanum",
+                      "rank": "genus",
+                      "authority": "Golovatch, 1994",
+                      "typeSpecies": "Hirtodrepanum latigonopum Golovatch, 1994",
+                      "typeLocality": "Mustang District, south of Lete",
+                      "species": [
+                        {
+                          "name": "Hirtodrepanum latigonopum",
+                          "authority": "Golovatch, 1994",
+                          "typeLocality": "Mustang District, south of Lete",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, south of Lete (2450–2600 m), Thakkhola, Kali Gandaki Valley between Annapurna and Dhaulagiri Himal, Chadziou Khola Valley (2530–2600 m), banks of Lete Khola near Lete (2400 m); Manang District, Marsyandi, above Bagarchap (2200 m); Kaski and Parbat District, above Dhampus (2100 m), between Chitre and Ghandruk, Ghandruk side of pass (2300–2700 m), between Ghodepani Pass and Ulleri (2460 m); Ilam District, Gitang Khola (2550 m)",
+                          "reference": "Golovatch, 1994b; Golovatch, 2015a; Golovatch et al., 2016",
+                          "isEndemic": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Kronopolites",
+                      "rank": "genus",
+                      "authority": "Attems, 1914",
+                      "typeSpecies": "Strongylosoma swinhoei Pocock, 1895 = Kronopolites swinhoei (Pocock, 1895)",
+                      "typeLocality": "China",
+                      "species": [
+                        {
+                          "name": "Kronopolites coriaceus",
+                          "authority": "Golovatch, 2015",
+                          "typeLocality": "Kaski District, above Pothana",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kaski District, above Pothana (2000 m)",
+                          "reference": "Golovatch, 2015",
+                          "isEndemic": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Orthomorpha",
+                      "rank": "genus",
+                      "authority": "Bollman, 1893",
+                      "typeSpecies": "Orthomorpha beaumontii (Le Guillou, 1841) = Polydesmus beaumontii Le Guillou, 1841",
+                      "typeLocality": "Borneo and Java (Indonesia)",
+                      "species": [
+                        {
+                          "name": "Orthomorpha coarctata",
+                          "authority": "(Saussure, 1860)",
+                          "typeLocality": "French Guiana",
+                          "globalDistribution": "Brazil, Indonesia, Papua New Guinea, Samoa, Sao Tome and Principe, Vietnam",
+                          "distributionInNepal": "Nuwakot District, Trisuli (600–650 m); Dhading District, Ankhu Sangu to Salyantar (530–750 m)",
+                          "reference": "Golovatch, 1990a; Golovatch, 1992",
+                          "isEndemic": false
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Oxidus",
+                      "rank": "genus",
+                      "authority": "Cook, 1911",
+                      "typeSpecies": "Oxidus gracilis (Koch, C.L., 1847) = Fontaria gracilis Koch C.L., 1847",
+                      "typeLocality": "Vaterland. Puloloz (locality in former Czechoslovakia or in Ostindien)",
+                      "species": [
+                        {
+                          "name": "Oxidus gracilis",
+                          "authority": "(Koch C. L., 1847)",
+                          "typeLocality": "Vaterland. Puloloz (locality in former Czechoslovakia or in Ostindien)",
+                          "globalDistribution": "Worldwide, primarily in warm temperate regions",
+                          "distributionInNepal": "Kathmandu District, Kathmandu City, Ganabahal (1350 m); Kaski District, Pokhara town (900 m), between Hemja, Cave Mahendra and Pokhara (1000–1200 m); Rasuwa District, Trisuli Village (570 m)",
+                          "reference": "Golovatch, 1990a",
+                          "isEndemic": false
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Pocockina",
+                      "rank": "genus",
+                      "authority": "Jeekel, 1965",
+                      "typeSpecies": "Pocockina pilifera (Pocock, 1895) = Orthomorpha pilifera Pocock, 1895",
+                      "typeLocality": "Burma (Myanmar)",
+                      "species": [
+                        {
+                          "name": "Pocockina schawalleri",
+                          "authority": "Golovatch, 2016",
+                          "typeLocality": "Chitwan District, Chitwan National Park, Sauraha",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Chitwan District, Chitwan National Park, Sauraha (150 m)",
+                          "reference": "Golovatch, 2016a",
+                          "isEndemic": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Substrongylosoma",
+                      "rank": "genus",
+                      "authority": "Golovatch, 1984",
+                      "typeSpecies": "Substrongulosoma distinctum Golovatch, 1984",
+                      "typeLocality": "India, West Bengal, Darjeeling, below North Point",
+                      "species": [
+                        {
+                          "name": "Substrongylosoma bifurcatum",
+                          "authority": "Golovatch, 2016",
+                          "typeLocality": "Solukhumbu District, Hinku Drangka Khola Bridge",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, Hinku Drangka Khola Bridge (2000 m)",
+                          "reference": "Golovatch, 2016a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Substrongylosoma exiguum",
+                          "authority": "Golovatch, 2016",
+                          "typeLocality": "Bhojpur District, valley northwest of Phedi",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Khotang/Bhojpur District, valley northwest of Phedi (1900 m)",
+                          "reference": "Golovatch, 2016a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Substrongylosoma schawalleri",
+                          "authority": "Golovatch, 1993",
+                          "typeLocality": "Taplejung District, between Hellok and lower Ghunsa Khola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, between Hellok and lower Ghunsa Khola (1620–2000 m)",
+                          "reference": "Golovatch, 1993",
+                          "isEndemic": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Touranella",
+                      "rank": "genus",
+                      "authority": "Attems, 1937",
+                      "typeSpecies": "Touranella gracilis Attems, 1937",
+                      "typeLocality": "Indochina",
+                      "species": [
+                        {
+                          "name": "Touranella himalayaensis",
+                          "authority": "Golovatch, 1994",
+                          "typeLocality": "Panchthar District, Paniparuwa",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Panchthar District, Paniparuwa (2300 m), Dhorpar Kharka (2700 m)",
+                          "reference": "Golovatch, 1994b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Touranella pilosa",
+                          "authority": "Golovatch, 2016",
+                          "typeLocality": "Sankhuwasabha District, above Pawakhola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, above Pawakhola (2600–2800 m)",
+                          "reference": "Golovatch, 2016b",
+                          "isEndemic": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Polydesmidae",
+                  "rank": "family",
+                  "authority": "Leach, 1815",
+                  "genera": [
+                    {
+                      "name": "Epanerchodus",
+                      "rank": "genus",
+                      "authority": "Attems, 1901",
+                      "typeSpecies": "Epanerchodus tambanus (Attems, 1901)",
+                      "typeLocality": "Japan",
+                      "remarks": "Golovatch (1986), Golovatch (1987) and Golovatch (1990) described six species of Usbekodesmus Lohmander, 1933 from Nepal, which were transferred to Epanerchodus Attems, 1901 by Golovatch et al. (2011).",
+                      "species": [
+                        {
+                          "name": "Epanerchodus anachoretus",
+                          "authority": "(Golovatch, 1986)",
+                          "typeLocality": "Ramechhap District, Thodung near Jiri",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Ramechhap District, Thodung near Jiri (3100–3200 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Epanerchodus buddhis",
+                          "authority": "(Golovatch, 1986)",
+                          "typeLocality": "Dolpa District, N Dhaulagiri Himal, Gompa (=Gumba) near Tarakot",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Dolpa District, N Dhaulagiri Himal, Gompa (=Gumba) near Tarakot (3300–3400 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Epanerchodus occultus",
+                          "authority": "(Golovatch, 1986)",
+                          "typeLocality": "Mustang District, Kali Gandaki Valley, Chadziou Khola Valley",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Kali Gandaki Valley, Chadziou Khola Valley (2700–2800 m); Parbat District, between Chitre and Ghandruk on Chitre side of the Pass (2800–2900 m), Ghandruk side of the Pass (2700–3100 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Epanerchodus sacer",
+                          "authority": "(Golovatch, 1987)",
+                          "typeLocality": "Gorkha District, Chumling Khola, Meme Kharka",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Chumling Khola, Meme Kharka (3300–3400 m), Djingshi Kharka (3050–3400 m), south of Kalo Pokhari (3600 m), northwest of Rupina La–Tabruk Kharka (4000 m)",
+                          "reference": "Golovatch, 1987a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Epanerchodus telnovi",
+                          "authority": "Golovatch, 2022",
+                          "typeLocality": "Humla District, 12–13 km SE of Simikot",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Humla District, 12–13 km SE of Simikot (1990–3110 m)",
+                          "reference": "Golovatch, 2022",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Epanerchodus theocraticus",
+                          "authority": "(Golovatch, 1990)",
+                          "typeLocality": "Taplejung District, descent from Pass Deurali to Hellok",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, descent from Pass Deurali to Hellok (2600–2800 m)",
+                          "reference": "Golovatch, 1990b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Epanerchodus theosophicus",
+                          "authority": "(Golovatch, 1986)",
+                          "typeLocality": "Rasuwa District, Trisuli Valley, Gosaikund, Sing Gompa",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Rasuwa District, Trisuli Valley, Gosaikund, Sing Gompa (3200 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Epanerchodus sp.",
+                          "authority": null,
+                          "typeLocality": null,
+                          "globalDistribution": null,
+                          "distributionInNepal": "Sankhuwasabha District, Kongla Khola east of Thudam (4100–4200 m), Thudam (3550–3650 m), from Thudam to Gabri Khola (4000–4250 m), between Pass Pomari La and Pawakhola (3450–3600 m)",
+                          "reference": "Golovatch, 1990b",
+                          "remarks": "Unable to identify at the species level due to the absence of male specimens and reliable biological records.",
+                          "isEndemic": null,
+                          "notes": "Unidentified species"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Glenniea",
+                      "rank": "genus",
+                      "authority": "Turk, 1945",
+                      "typeSpecies": "Glenniea indica Turk, 1945",
+                      "typeLocality": "Bundelkhand, India",
+                      "species": [
+                        {
+                          "name": "Glenniea martensi",
+                          "authority": "(Golovatch, 1987)",
+                          "typeLocality": "Gorkha District, between Nayasanghu and Gorkha",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, between Nayasanghu and Gorkha (1200 m)",
+                          "reference": "Golovatch, 1987b",
+                          "isEndemic": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Himalodesmus",
+                      "rank": "genus",
+                      "authority": "Golovatch, 1986",
+                      "typeSpecies": "Himalodesmus pygmaeus Golovatch, 1986",
+                      "typeLocality": "Dolpa District, N Dhaulagiri Himal, Gompa (=Gumba) near Tarakot",
+                      "species": [
+                        {
+                          "name": "Himalodesmus audax",
+                          "authority": "Golovatch, 1986",
+                          "typeLocality": "Lalitpur District, Kathmandu Valley, Godawari, Mt. Phulchowki",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Lalitpur District, Kathmandu Valley, Godawari, Mt. Phulchowki (2600–2650 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Himalodesmus benefactor",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Taplejung District, ridge Lasse Dhara and pasture Lassetham",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, ridge Lasse Dhara and pasture Lassetham (3000–3300 m), descent from Deurali Pass to Hellok (2600–2800 m)",
+                          "reference": "Golovatch, 1987a; Golovatch, 1990b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Himalodesmus faustus",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Gorkha District, Buri Gandaki, Jagat to opposite Pangshing",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, Buri Gandaki, Jagat to opposite Pangshing (1650–1750 m), opposite Pangshing (1750 m), Khorlabesi to Dobhan (1000–1100 m), Arughat to Soti (600–700 m)",
+                          "reference": "Golovatch, 1987a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Himalodesmus parvus",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Panchthar District, ridge between Sheldoti and Paniparuwa",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Panchthar District, ridge between Sheldoti and Paniparuwa (2000 m)",
+                          "reference": "Golovatch, 1987a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Himalodesmus prosperus",
+                          "authority": "Golovatch, 1990",
+                          "typeLocality": "Sankhuwasabha District, above Pawakhola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, above Pawakhola (2600–2800 m)",
+                          "reference": "Golovatch, 1990b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Himalodesmus pulcher",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Terhathum District, Tinjure Danda",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Terhathum District, Tinjure Danda (2450–2720 m)",
+                          "reference": "Golovatch, 1987a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Himalodesmus pygmaeus",
+                          "authority": "Golovatch, 1986",
+                          "typeLocality": "Dolpa District, N Dhaulagiri Himal, Gompa (=Gumba) near Tarakot",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Dolpa District, N Dhaulagiri Himal, Gompa (=Gumba) near Tarakot (3300–3400 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Himalodesmus vigens",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Ilam District, Mai Pokhari",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Ilam District, Mai Pokhari (2150–2250 m)",
+                          "reference": "Golovatch, 1987a",
+                          "isEndemic": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pyrgodesmidae",
+                  "rank": "family",
+                  "genera": [
+                    {
+                      "name": "Cryptocorypha",
+                      "rank": "genus",
+                      "species": [
+                        {
+                          "name": "Cryptocorypha spp.",
+                          "authority": null,
+                          "typeLocality": null,
+                          "globalDistribution": null,
+                          "distributionInNepal": "Nepal",
+                          "reference": "Golovatch and Martens 2018",
+                          "remarks": "Two species from Nepal",
+                          "isEndemic": null,
+                          "notes": "Two unidentified species"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Trichopolydesmidae",
+                  "rank": "family",
+                  "authority": "Verhoeff, 1910",
+                  "remarks": "Golovatch (1986), Golovatch (1987) and Golovatch (1990) described species under the family Fuhrmannodesmidae, which was later synonymized with Trichopolydesmidae.",
+                  "genera": [
+                    {
+                      "name": "Hingstonia",
+                      "rank": "genus",
+                      "authority": "Carl, 1935",
+                      "typeSpecies": "Hingstonia eremita Carl, 1935",
+                      "typeLocality": "Solukhumbu District, Rongshar Valley",
+                      "species": [
+                        {
+                          "name": "Hingstonia beatae",
+                          "authority": "Golovatch, 1990",
+                          "typeLocality": "Taplejung District, Yamphudin, ascent to Pass Deurali",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, Yamphudin, ascent to Pass Deurali (2700–3420 m), pasture Lassetham, northwest of Yamphudin (3300–3500 m), upper Tamur Valley below Olangchung Gola (2400–2700 m), Olangchung Gola (3000–3200 m)",
+                          "reference": "Golovatch, 1990b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hingstonia eremita",
+                          "authority": "Carl, 1935",
+                          "typeLocality": "Solukhumbu District, Rongshar Valley",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Solukhumbu District, Rongshar Valley (2896–3353 m)",
+                          "reference": "Carl, 1935",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hingstonia falcata",
+                          "authority": "Golovatch, 1986",
+                          "typeLocality": "Mustang District, Thakkhola, Kali Gandaki Valley, Chadziou Khola Valley",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Thakkhola, Kali Gandaki Valley, Chadziou Khola Valley (2650 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hingstonia fittkaui",
+                          "authority": "Golovatch, 1990",
+                          "typeLocality": "Sankhuwasabha District, Thudam",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, Thudam (3350–3650 m)",
+                          "reference": "Golovatch, 1990b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hingstonia pahakholana",
+                          "authority": "Golovatch, 1990",
+                          "typeLocality": "Sankhuwasabha District, above Pawakhola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, above Pawakhola (2600–2800 m)",
+                          "reference": "Golovatch, 1990b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hingstonia perarmata",
+                          "authority": "Golovatch, 1986",
+                          "typeLocality": "Mustang District, Thakkhola, Kali Gandaki Valley, Thasang above Tukuche",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Mustang District, Thakkhola, Kali Gandaki Valley, Thasang above Tukuche (3150 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hingstonia serrata",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Gorkha District, south of Kalo Pokhari",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Gorkha District, south of Kalo Pokhari (3600 m), Chumling Khola, Djinshi Kharka (3400 m)",
+                          "reference": "Golovatch, 1987a",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hingstonia sympatrica",
+                          "authority": "Golovatch, 1990",
+                          "typeLocality": "Sankhuwasabha District, Thudam",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, Thudam (3350–3650 m)",
+                          "reference": "Golovatch, 1990b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hingstonia variata",
+                          "authority": "Golovatch, 1987",
+                          "typeLocality": "Taplejung District, Pass Anda Deurali, between Simbuwa Khola and Ghunsa Khola",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, Pass Anda Deurali, between Simbuwa Khola and Ghunsa Khola (4250–4500 m), between Lassetham pasture and Simbuwa Khola (3100–3300 m), Yalung (3450 m), south of Ghunsa (3600–3900 m), Ghunsa (3200–3400 m), ridge Lasse Dhara and pasture Lassetham (3000–3300 m), descent from Pass Deurali to Hellok (3000–3400 m), upper Simbuwa Khola Valley, near Tseram (3250–3350 m), ascent to pasture Lassetham (3000 m)",
+                          "reference": "Golovatch, 1987a; Golovatch, 1990b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Hingstonia sp.",
+                          "authority": null,
+                          "typeLocality": null,
+                          "globalDistribution": null,
+                          "distributionInNepal": "Taplejung District, upper Simbuwa Khola Valley, near Tseram (3250–3350 m); Sankhuwasabha District, between Pomri La and Pawakhola (3600–3900 m); Panchthar District, ridge between Sheldoti and Paniparuwa (2200 m)",
+                          "reference": "Golovatch, 1990b",
+                          "isEndemic": null,
+                          "notes": "Unidentified species"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Sholaphilus",
+                      "rank": "genus",
+                      "authority": "Carl, 1932",
+                      "typeSpecies": "Sholaphilus albidus Carl, 1932",
+                      "typeLocality": "Palnis: Shola bei Vandaravu, Tamil Nadu, India",
+                      "species": [
+                        {
+                          "name": "Sholaphilus asceticus",
+                          "authority": "Golovatch, 1986",
+                          "typeLocality": "Kaski District, south Annapurna Himal, between Lumle and Khare",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kaski District, south Annapurna Himal, between Lumle and Khare (1650 m), slope below Naudhara to Suikheth Valley (1300–1400 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Sholaphilus dalai",
+                          "authority": "Golovatch, 1986",
+                          "typeLocality": "Parbat District, Chitre",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Parbat District, Chitre (2400 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Sholaphilus gompa",
+                          "authority": "Golovatch, 1990",
+                          "typeLocality": "Taplejung District, Yamphudin",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Taplejung District, Yamphudin (2000–2100 m)",
+                          "reference": "Golovatch, 1990b",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Sholaphilus lama",
+                          "authority": "Golovatch, 1986",
+                          "typeLocality": "Rasuwa District, Trisuli Valley, between Ramche and Dhunche",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Rasuwa District, Trisuli Valley, between Ramche and Dhunche (1800–2000 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Sholaphilus martensi",
+                          "authority": "Golovatch, 1986",
+                          "typeLocality": "Lamjung District, Marsyandi Valley, Syange to Jagat",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Lamjung District, Marsyandi Valley, Syange to Jagat (1100–1250 m), between Tal and Dharapani (1580–1850 m); Manang District, Marsyandi Valley, below Bagarchhap (2100 m)",
+                          "reference": "Golovatch, 1986",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Sholaphilus monachus",
+                          "authority": "Golovatch, 1990",
+                          "typeLocality": "Sankhuwasabha District, Arun Valley, between Mudhe and Hururu",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Sankhuwasabha District, Arun Valley, between Mudhe and Hururu (2050–2150 m)",
+                          "reference": "Golovatch, 1990b",
+                          "isEndemic": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spirostreptida",
+              "rank": "order",
+              "authority": "Brandt, 1833",
+              "families": [
+                {
+                  "name": "Cambalopsidae",
+                  "rank": "family",
+                  "authority": "Cook, 1895",
+                  "genera": [
+                    {
+                      "name": "Podoglyphiulus",
+                      "rank": "genus",
+                      "authority": "Attems, 1909",
+                      "typeSpecies": "Podoglyphiulus ceylanicus (Attems, 1909) = Glyphiulus ceylanicus Attems, 1909",
+                      "typeLocality": "Ceylon (Sri Lanka)",
+                      "species": [
+                        {
+                          "name": "Podoglyphiulus elegans nepalensis",
+                          "authority": "Mauriès, 1983",
+                          "typeLocality": "Satara District, Konya Valley, and Nechal, Western Ghats",
+                          "globalDistribution": "India, Nepal",
+                          "distributionInNepal": "Kathmandu District, 5 km SW of the city, Twang Reng Gupha",
+                          "reference": "Mauriès, 1983a; Mauriès, 1983b",
+                          "isEndemic": false
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Trachyjulus",
+                      "rank": "genus",
+                      "authority": "Peters, 1864",
+                      "typeSpecies": "Trachyjulus ceylanicus Peters, 1864",
+                      "typeLocality": "Ceylon (Sri Lanka)",
+                      "species": [
+                        {
+                          "name": "Trachyjulus wilsonae",
+                          "authority": "(Mauriès, 1983)",
+                          "typeLocality": "Kaski District, Pokhara, Oderibunan Gupha",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kaski District, Pokhara Oderibunan Gupha, Mahendra Gupha, and Bagmati Zone: near Kathmandu, Twang Reng Gupha, and Bagmati Cave",
+                          "reference": "Mauriès, 1983a; Mauriès, 1983b",
+                          "synonyms": "Trachyiulus wilsonae Mauriès, 1983",
+                          "isEndemic": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Harpagophoridae",
+                  "rank": "family",
+                  "authority": "Attems, 1909",
+                  "genera": [
+                    {
+                      "name": "Gonoplectus",
+                      "rank": "genus",
+                      "authority": "Chamberlin, 1921",
+                      "typeSpecies": "Gonoplectus carletoni Chamberlin, 1921 = Gonoplectus malayus (Carl, 1909)",
+                      "typeLocality": "Northern India",
+                      "species": [
+                        {
+                          "name": "Gonoplectus broelemanni",
+                          "authority": "Demange, 1961",
+                          "typeLocality": "Kaski District, Bakhri Kharda",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kaski District, Bakhri Kharda (1676 m), Ulleri (1819–2134 m), Sikles (7000 ft)",
+                          "reference": "Demange, 1961",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Gonoplectus hyatti",
+                          "authority": "Demange, 1961",
+                          "typeLocality": "Kaski District, Tilhar",
+                          "globalDistribution": "Endemic to Nepal",
+                          "distributionInNepal": "Kaski District, on ground at Tilhar (1067 m), Naudanda and Takun",
+                          "reference": "Demange, 1961",
+                          "isEndemic": true
+                        },
+                        {
+                          "name": "Gonoplectus malayus",
+                          "authority": "(Carl, 1909)",
+                          "typeLocality": "Java (Indonesia)",
+                          "globalDistribution": "Indonesia (Java), Bhutan, India, Nepal",
+                          "distributionInNepal": "Chitwan District, Kataoli, Narayani Valley, 30 km west-southwest of Narayangarh (200–250 m), near Narayangarh (200–250 m)",
+                          "reference": "Carl, 1909; Chamberlin, 1921; Mauriès 1983b",
+                          "synonyms": "Spirostreptus malayus Carl, 1909 = Gonoplectus carletoni Chamberlin, 1921",
+                          "isEndemic": false
+                        },
+                        {
+                          "name": "Gonoplectus lindbergi",
+                          "authority": "Demange, 1961",
+                          "typeLocality": "Gayaganga, Darjeeling",
+                          "globalDistribution": "India and Nepal",
+                          "distributionInNepal": "Jhapa District, Birtamode Municipality, Butabari (26.646674, 88.027101), 147 m",
+                          "reference": "Demange, 1961",
+                          "materialChecked": "1 male and 1 female, leg. Lokendra Chand",
+                          "isEndemic": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spirobolida",
+              "rank": "order",
+              "families": [
+                {
+                  "name": "Pachybolidae",
+                  "rank": "family",
+                  "authority": "Cook, 1897",
+                  "subfamilies": [
+                    {
+                      "name": "Trigoniulinae",
+                      "rank": "subfamily",
+                      "authority": "Attems, 1909",
+                      "genera": [
+                        {
+                          "name": "Trigoniulus",
+                          "rank": "genus",
+                          "authority": "Pocock, 1894",
+                          "typeSpecies": "Spirobolus goesi Porat, 1876 = Trigoniulus corralinus (Eydoux and Souleyet, 1842)",
+                          "typeLocality": "St. Bartholomew (England, United Kingdom)",
+                          "species": [
+                            {
+                              "name": "Trigoniulus corralinus",
+                              "authority": "(Eydoux and Souleyet, 1842)",
+                              "typeLocality": null,
+                              "globalDistribution": "Pantropical",
+                              "distributionInNepal": "Ranibari Community Forest (27.730833, 85.320833), Kathmandu, Bagmati, Nepal",
+                              "reference": null,
+                              "materialExamined": "2 ♂, CDMTZU-DipL105, leaf litter, June 1, 2022; leg. Lokendra Chand",
+                              "isEndemic": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Penicillata",
+          "rank": "subclass",
+          "authority": "Latreille, 1831",
+          "orders": [
+            {
+              "name": "Polyxenida",
+              "rank": "order",
+              "authority": "Verhoeff, 1934",
+              "families": [
+                {
+                  "name": "Polyxenidae",
+                  "rank": "family",
+                  "authority": "Lucas, 1840",
+                  "genera": [
+                    {
+                      "name": "Monographis",
+                      "rank": "genus",
+                      "authority": "Attems, 1907",
+                      "typeSpecies": "Monographis kraepelini Attems, 1907",
+                      "species": [
+                        {
+                          "name": "Monographis mirus",
+                          "authority": "(Turk, 1947)",
+                          "typeLocality": "India",
+                          "globalDistribution": "India, Nepal",
+                          "distributionInNepal": "Unknown",
+                          "reference": "Golovatch and Martens, 2018",
+                          "synonyms": "Monographis mira (Turk, 1947)",
+                          "remarks": "This species was reported from India, but the exact distribution locality in Nepal is unknown.",
+                          "isEndemic": false
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unixenus",
+                      "rank": "genus",
+                      "species": [
+                        {
+                          "name": "Unixenus sp.",
+                          "authority": null,
+                          "typeLocality": null,
+                          "globalDistribution": null,
+                          "distributionInNepal": "Nepal",
+                          "reference": "Golovatch and Martens 1996, Golovatch and Martens 2018",
+                          "isEndemic": null,
+                          "notes": "Unidentified species"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "totalSpecies": 188,
+    "totalEndemicSpecies": 156,
+    "totalGenera": 31,
+    "totalFamilies": 17,
+    "totalOrders": 9
+  },
+  "metadata": {
+    "createdDate": "2024-01-15",
+    "source": "Compiled from taxonomic literature",
+    "notes": "This checklist includes all described millipede species from Nepal based on published records through 2024. Species identified only to genus are not included in the total species count."
+  }
+}
