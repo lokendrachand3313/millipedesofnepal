@@ -10,17 +10,19 @@
     
     <style>
         .nepali-names {
-            background: #f9f9f9;
+            background: #fdfaf5;
             padding: 15px;
             border-radius: 8px;
             line-height: 1.8;
             border-left: 4px solid #2d5a27;
+            font-size: 1.1rem;
         }
         .featured-img {
             max-width: 100%;
             height: auto;
             border-radius: 10px;
             margin: 15px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         #map {
             height: 450px;
@@ -28,6 +30,7 @@
             border-radius: 10px;
             border: 2px solid #ddd;
             margin-top: 15px;
+            z-index: 1;
         }
     </style>
 </head>
@@ -83,18 +86,20 @@
 
 <footer>
     <p>Questions? Contact <a href="mailto:lokendrachand56@gmail.com">lokendrachand56@gmail.com</a></p>
-    <p>&copy; 2024 Lokendra Chand | +977-9869959934</p>
+    <p>&copy; 2026 Lokendra Chand | +977-9869959934</p>
 </footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-    // Initialize the map centered on Nepal
+    // Initialize the map centered on Nepal (Zoomed to show the country overview)
     var map = L.map('map').setView([28.3949, 84.1240], 7);
 
     // Set the map style (OpenStreetMap)
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
+
+    // Markers have been removed as requested.
 </script>
 
 </body>
