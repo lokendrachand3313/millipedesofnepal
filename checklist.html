@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checklist - Millipedes of Nepal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .search-container { margin: 20px 0; text-align: center; }
+        #speciesSearch { 
+            width: 80%; padding: 15px; border-radius: 25px; 
+            border: 2px solid var(--primary-green); font-size: 1.1rem;
+        }
+        .species-card {
+            border: 1px solid #ddd; padding: 15px; margin: 10px 0;
+            border-radius: 8px; background: #fff; transition: 0.3s;
+        }
+        .species-card:hover { border-color: var(--leaf-green); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .taxa-path { font-size: 0.8rem; color: #666; text-transform: uppercase; }
+        .species-name { color: var(--primary-green); font-size: 1.3rem; margin: 5px 0; }
+        .detail-label { font-weight: bold; color: var(--earth-brown); }
+    </style>
+</head>
+<body>
+
+<header style="padding:40px;">
+    <h1>Species Checklist</h1>
+    <p>Database of Nepalese Diplopoda</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="checklist.html">Checklist</a>
+</nav>
+
+<main>
+    <div class="search-container">
+        <input type="text" id="speciesSearch" placeholder="Search by Order, Family, Genus or Species name...">
+    </div>
+
+    <div id="resultsCount" style="text-align: center; margin-bottom: 10px; font-weight: bold;"></div>
+    <div id="checklistResults">
+        </div>
+</main>
+
+<script>
+    let speciesData = [];
+
+    // Load the data from your JSON file
+    fetch('checklist.json')
+        .then(response => response.json())
+        .then(data => {
+            speciesData = data;
+            displayResults(data); // Show all initially
+        });
+
+    const searchInput = document.getElementById('speciesSearch');
+    searchInput.addEventListener('input', (e) => {
+        const term = e.target.value.toLowerCase();
+        const filtered = speciesData.filter(item => 
+            item.order.toLowerCase().includes(term) ||
+            item.family.toLowerCase().includes(term) ||
+            item.genus.toLowerCase().includes(term) ||
+            item.species.toLowerCase().includes(term)
+        );
+        displayResults(filtered);
+    });
+
+    function displayResults(results) {
+        const container = document.getElementById('checklistResults');
+        const count = document.getElementById('resultsCount');
+        count.innerText = `Showing ${results.length} species`;
+        container.innerHTML = '';
+
+        results.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'species-card';
+            card.innerHTML = `
+                <div class="taxa-path">${item.order} > ${item.family}</div>
+                <div class="species-name"><i>${item.genus} ${item.species}</i> ${item.author}</div>
+                <p><span class="detail-label">Type Locality:</span> ${item.type_locality}</p>
+                <p><span class="detail-label">Global Distribution:</span> ${item.global_dist}</p>
+                <p><span class="detail-label">Nepal Distribution:</span> ${item.nepal_dist}</p>
+            `;
+            container.appendChild(card);
+        });
+    }
+</script>
+
+</body>
+</html>
