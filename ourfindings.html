@@ -2,46 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Findings - Millipedes of Nepal</title>
     <link rel="stylesheet" href="style.css">
     <style>
         .findings-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
-            padding: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
+
         .finding-card {
             background: #fff;
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            border: 1px solid #eee;
-            transition: transform 0.2s;
+            border: 1px solid #e0e0e0;
+            display: flex;
+            flex-direction: column;
         }
-        .finding-card:hover { transform: translateY(-5px); }
-        .finding-image {
+
+        .specimen-photo {
             width: 100%;
-            height: 250px;
-            object-fit: cover; /* Keeps photo from stretching */
-            border-bottom: 4px solid var(--primary-green);
+            height: 240px;
+            object-fit: cover;
+            border-bottom: 3px solid var(--primary-green);
+            background-color: #f4f4f4;
         }
-        .finding-details { padding: 20px; }
-        .finding-details h3 { 
-            margin-top: 0; 
-            color: var(--primary-green); 
-            font-style: italic; 
+
+        .finding-content {
+            padding: 20px;
         }
-        .taxa-info { font-size: 0.9rem; line-height: 1.6; }
-        .taxa-info b { color: var(--earth-brown); width: 80px; display: inline-block; }
-        .location-tag {
+
+        .specimen-title {
+            font-size: 1.3rem;
+            color: var(--primary-green);
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .taxa-table {
+            width: 100%;
+            font-size: 0.9rem;
+            border-collapse: collapse;
+        }
+
+        .taxa-table td {
+            padding: 5px 0;
+        }
+
+        .label {
+            font-weight: bold;
+            color: var(--earth-brown);
+            width: 80px;
+        }
+
+        .scientific {
+            font-style: italic;
+            color: #333;
+        }
+
+        .location-box {
             margin-top: 15px;
-            padding: 5px 10px;
-            background: #f0f7f0;
-            border-radius: 5px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-left: 4px solid var(--leaf-green);
             font-size: 0.85rem;
-            color: #444;
-            display: inline-block;
+            color: #555;
         }
     </style>
 </head>
@@ -49,47 +80,56 @@
 
 <header>
     <h1>Species Findings</h1>
-    <p>Visual Documentation of Nepalese Diplopoda</p>
+    <p>Visual documentation of millipede biodiversity in Nepal</p>
 </header>
 
 <nav>
     <a href="index.html">Home</a>
     <a href="checklist.html">Checklist</a>
     <a href="distribution.html">Map</a>
-    <a href="ourfindings.html">Findings</a>
+    <a href="ourfindings.html" class="active">Our Findings</a>
+    <a href="team.html">Team</a>
 </nav>
 
 <main class="findings-grid">
-    
+
     <div class="finding-card">
-        <img src="images/sp1.jpg" alt="Species Photo" class="finding-image">
-        <div class="finding-details">
-            <h3>Epanerchodus nepalensis</h3>
-            <div class="taxa-info">
-                <p><b>Order:</b> Polydesmida</p>
-                <p><b>Family:</b> Polydesmidae</p>
-                <p><b>Genus:</b> Epanerchodus</p>
-                <p><b>Species:</b> nepalensis</p>
+        <img src="images/sp1.jpg" alt="Specimen Photo" class="specimen-photo">
+        <div class="finding-content">
+            <h3 class="specimen-title"><i>Trigoniulus corallinus</i></h3>
+            <table class="taxa-table">
+                <tr><td class="label">Order:</td><td>Spirobolida</td></tr>
+                <tr><td class="label">Family:</td><td>Pachybolidae</td></tr>
+                <tr><td class="label">Genus:</td><td class="scientific">Trigoniulus</td></tr>
+                <tr><td class="label">Species:</td><td class="scientific">corallinus</td></tr>
+            </table>
+            <div class="location-box">
+                <strong>Location:</strong> Kathmandu Valley, Central Nepal
             </div>
-            <div class="location-tag">📍 Shivapuri Nagarjun National Park</div>
         </div>
     </div>
 
     <div class="finding-card">
-        <img src="images/sp2.jpg" alt="Species Photo" class="finding-image">
-        <div class="finding-details">
-            <h3>Trigoniulus corallinus</h3>
-            <div class="taxa-info">
-                <p><b>Order:</b> Spirobolida</p>
-                <p><b>Family:</b> Pachybolidae</p>
-                <p><b>Genus:</b> Trigoniulus</p>
-                <p><b>Species:</b> corallinus</p>
+        <img src="images/sp2.jpg" alt="Specimen Photo" class="specimen-photo">
+        <div class="finding-content">
+            <h3 class="specimen-title"><i>Gonoplectus malayus</i></h3>
+            <table class="taxa-table">
+                <tr><td class="label">Order:</td><td>Spirostreptida</td></tr>
+                <tr><td class="label">Family:</td><td>Harpagophoridae</td></tr>
+                <tr><td class="label">Genus:</td><td class="scientific">Gonoplectus</td></tr>
+                <tr><td class="label">Species:</td><td class="scientific">malayus</td></tr>
+            </table>
+            <div class="location-box">
+                <strong>Location:</strong> Eastern Himalayas Region, Nepal
             </div>
-            <div class="location-tag">📍 Kathmandu Valley Forest</div>
         </div>
     </div>
 
     </main>
+
+<footer>
+    <p>&copy; 2026 Lokendra Chand & Ayub Senchury | Millipedes of Nepal Research</p>
+</footer>
 
 </body>
 </html>
