@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Findings - Millipedes of Nepal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .findings-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+        .finding-card {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border: 1px solid #eee;
+            transition: transform 0.2s;
+        }
+        .finding-card:hover { transform: translateY(-5px); }
+        .finding-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover; /* Keeps photo from stretching */
+            border-bottom: 4px solid var(--primary-green);
+        }
+        .finding-details { padding: 20px; }
+        .finding-details h3 { 
+            margin-top: 0; 
+            color: var(--primary-green); 
+            font-style: italic; 
+        }
+        .taxa-info { font-size: 0.9rem; line-height: 1.6; }
+        .taxa-info b { color: var(--earth-brown); width: 80px; display: inline-block; }
+        .location-tag {
+            margin-top: 15px;
+            padding: 5px 10px;
+            background: #f0f7f0;
+            border-radius: 5px;
+            font-size: 0.85rem;
+            color: #444;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Species Findings</h1>
+    <p>Visual Documentation of Nepalese Diplopoda</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="checklist.html">Checklist</a>
+    <a href="distribution.html">Map</a>
+    <a href="ourfindings.html">Findings</a>
+</nav>
+
+<main class="findings-grid">
+    
+    <div class="finding-card">
+        <img src="images/sp1.jpg" alt="Species Photo" class="finding-image">
+        <div class="finding-details">
+            <h3>Epanerchodus nepalensis</h3>
+            <div class="taxa-info">
+                <p><b>Order:</b> Polydesmida</p>
+                <p><b>Family:</b> Polydesmidae</p>
+                <p><b>Genus:</b> Epanerchodus</p>
+                <p><b>Species:</b> nepalensis</p>
+            </div>
+            <div class="location-tag">📍 Shivapuri Nagarjun National Park</div>
+        </div>
+    </div>
+
+    <div class="finding-card">
+        <img src="images/sp2.jpg" alt="Species Photo" class="finding-image">
+        <div class="finding-details">
+            <h3>Trigoniulus corallinus</h3>
+            <div class="taxa-info">
+                <p><b>Order:</b> Spirobolida</p>
+                <p><b>Family:</b> Pachybolidae</p>
+                <p><b>Genus:</b> Trigoniulus</p>
+                <p><b>Species:</b> corallinus</p>
+            </div>
+            <div class="location-tag">📍 Kathmandu Valley Forest</div>
+        </div>
+    </div>
+
+    </main>
+
+</body>
+</html>
