@@ -5,6 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Millipedes of Nepal</title>
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        .nepali-names {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            line-height: 1.8;
+            border-left: 4px solid #2d5a27;
+        }
+        .featured-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        #map {
+            height: 450px;
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid #ddd;
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
 
@@ -21,7 +46,7 @@
     <a href="articles.html">Articles</a>
     <a href="findings.html">Our Findings</a>
     <a href="team.html">Team</a>
-    <a href="photos.html">Upload</a>
+    <a href="upload.html">Upload</a>
     <a href="faq.html">FAQ</a>
 </nav>
 
@@ -33,9 +58,7 @@
 
     <section class="featured">
         <h3>Featured Species</h3>
-        
         <img src="gonoplectus.jpg" alt="Gonoplectus sp. from Dang Valley" class="featured-img">
-        
         <p><strong>Gonoplectus sp.</strong>, Spirostreptida, Harpagophoridae<br>
         <strong>Location:</strong> Dang Valley, Nepal</p>
     </section>
@@ -54,9 +77,7 @@
 
     <section>
         <h2>Distribution Map</h2>
-        <div style="background:#eee; height:300px; display:flex; align-items:center; justify-content:center; border-radius:10px;">
-            <p><i>Map Image will go here</i></p>
-        </div>
+        <div id="map"></div>
     </section>
 </main>
 
@@ -64,6 +85,22 @@
     <p>Questions? Contact <a href="mailto:lokendrachand56@gmail.com">lokendrachand56@gmail.com</a></p>
     <p>&copy; 2024 Lokendra Chand | +977-9869959934</p>
 </footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+    // Initialize the map centered on Nepal
+    var map = L.map('map').setView([28.3949, 84.1240], 7);
+
+    // Set the map style (OpenStreetMap)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Add marker for Featured Species in Dang Valley
+    L.marker([28.0010, 82.2969]).addTo(map)
+        .bindPopup('<b>Featured Finding: Gonoplectus sp.</b><br>Dang Valley, Nepal')
+        .openPopup();
+</script>
 
 </body>
 </html>
