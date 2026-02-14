@@ -18,20 +18,31 @@ body {
 
 /* Header & Navigation */
 header {
-    background-color: var(--primary-green);
+    /* Updated to match your filename 'home.jpg' */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('home.jpg');
+    
+    /* Makes the image fill the top area beautifully */
+    background-size: cover;
+    background-position: center;
+    
+    /* Adjusting padding to make the header taller so we see the photo */
+    padding: 120px 20px; 
     color: white;
-    padding: 2rem 0;
     text-align: center;
-    border-bottom: 5px solid var(--earth-brown);
+    border-bottom: 8px solid var(--earth-brown);
 }
 
 header h1 {
+    font-size: 3.5rem;
     margin: 0;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.8); /* Makes title pop against the photo */
 }
 
+header p {
+    font-size: 1.4rem;
+    color: var(--accent-yellow);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
 nav {
     background-color: var(--leaf-green);
     padding: 10px;
