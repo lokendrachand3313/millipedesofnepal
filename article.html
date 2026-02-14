@@ -3,91 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Articles - Millipedes of Nepal</title>
+    <title>Articles & Records - Millipedes of Nepal</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .article-container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        :root {
+            --primary-green: #2d5a27;
+            --leaf-green: #4a7c44;
+            --earth-brown: #5d4037;
+        }
+
+        .article-main {
+            max-width: 1200px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr; /* Main content and Sidebar */
+            gap: 40px;
+            padding: 0 20px;
+        }
+
         .article-card {
             background: #fff;
-            border-left: 5px solid var(--primary-green);
-            padding: 25px;
-            margin-bottom: 30px;
-            border-radius: 0 10px 10px 0;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            padding: 30px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--primary-green);
         }
-        .article-tag {
-            display: inline-block;
-            background: var(--leaf-green);
-            color: white;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
+
+        .taxonomic-line {
+            font-size: 0.85rem;
+            color: var(--leaf-green);
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
             margin-bottom: 10px;
         }
-        .article-title { color: var(--earth-brown); margin: 10px 0; font-size: 1.5rem; }
-        .article-title i { font-family: serif; }
-        .abstract { font-size: 0.95rem; line-height: 1.6; color: #444; margin: 15px 0; }
-        .keywords { font-size: 0.85rem; font-style: italic; color: #777; }
-        .btn-read {
-            display: inline-block;
-            margin-top: 15px;
-            color: var(--primary-green);
-            text-decoration: none;
-            font-weight: bold;
+
+        .article-title {
+            font-size: 1.8rem;
+            color: var(--earth-brown);
+            line-height: 1.3;
+            margin-bottom: 15px;
         }
-        .btn-read:hover { text-decoration: underline; }
+
+        .article-title i { font-style: italic; }
+
+        .meta-info {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .abstract-text {
+            line-height: 1.7;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .sidebar {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            height: fit-content;
+        }
+
+        .sidebar h3 { color: var(--primary-green); border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+        
+        .recent-link {
+            display: block;
+            padding: 10px 0;
+            color: #333;
+            text-decoration: none;
+            font-size: 0.9rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .recent-link:hover { color: var(--leaf-green); }
+
+        @media (max-width: 768px) {
+            .article-main { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Research & Publications</h1>
-    <p>New Records and Taxonomic Updates on Nepalese Diplopoda</p>
+<header style="background: var(--primary-green); color: white; padding: 60px 20px; text-align: center;">
+    <h1>Research Publications</h1>
+    <p>New Records and Scientific Documentation of Nepalese Diplopoda</p>
 </header>
 
 <nav>
     <a href="index.html">Home</a>
     <a href="checklist.html">Checklist</a>
     <a href="distribution.html">Map</a>
-    <a href="articles.html">Articles</a>
+    <a href="articles.html" class="active">Articles</a>
+    <a href="team.html">Team</a>
 </nav>
 
-<main class="article-container">
-    
-    <article class="article-card">
-        <span class="article-tag">New Record</span>
-        <h2 class="article-title">First Record of Spirobolid <i>Trigoniulus corallinus</i> (Gervais, 1842) from Nepal</h2>
-        <div class="taxa-path">Order: Spirobolida | Family: Pachybolidae</div>
-        
-        <p class="abstract">
-            <strong>Abstract:</strong> This report documents the first occurrence of the pantropical millipede <i>Trigoniulus corallinus</i> in Nepal. 
-            Commonly known as the rusty millipede, specimens were collected from urban forest fragments in the Kathmandu Valley. 
-            This finding suggests a widening distribution of anthropochore species into the Himalayan foothills via human-mediated transport.
-        </p>
-        
-        <p class="keywords">Keywords: Diplopoda, Kathmandu, Anthropochore, Urban Biodiversity, New Record.</p>
-        <a href="#" class="btn-read">Read Full Article →</a>
-    </article>
+<div class="article-main">
+    <section>
+        <article class="article-card">
+            <div class="taxonomic-line">Diplopoda: Spirobolida: Pachybolidae</div>
+            <h2 class="article-title">First Record of Spirobolid <i>Trigoniulus corallinus</i> (Gervais, 1842) from Nepal</h2>
+            <div class="meta-info">Published: February 2026 | Author: Chand, L. & Senchury, A.</div>
+            <p class="abstract-text">
+                <strong>Abstract:</strong> This paper reports the first confirmed presence of the rusty millipede, <i>Trigoniulus corallinus</i>, in the urban environments of Nepal. 
+                Specimens were collected from the Kathmandu Valley, marking a significant range expansion for this anthropochore species. 
+                The record highlights the role of human activity in the dispersal of tropical millipedes into Himalayan regions.
+            </p>
+            <a href="#" style="color: var(--primary-green); font-weight: bold;">Full Record Details →</a>
+        </article>
 
-    <article class="article-card">
-        <span class="article-tag">Taxonomic Update</span>
-        <h2 class="article-title">First Record of <i>Gonoplectus malayus lindbergi</i> Demange, 1961 from Nepal</h2>
-        <div class="taxa-path">Order: Spirostreptida | Family: Harpagophoridae</div>
-        
-        <p class="abstract">
-            <strong>Abstract:</strong> The subspecies <i>Gonoplectus malayus lindbergi</i> is recorded for the first time within the borders of Nepal. 
-            Previously known from the Eastern Himalayas (Bhutan and West Bengal), this record extends its known distribution westward 
-            into the Central Himalayan range. Taxonomic characters and habitat preferences are discussed.
-        </p>
-        
-        <p class="keywords">Keywords: Harpagophoridae, Sino-Himalayan, Biogeography, Gonoplectus.</p>
-        <a href="#" class="btn-read">Read Full Article →</a>
-    </article>
+        <article class="article-card">
+            <div class="taxonomic-line">Diplopoda: Spirostreptida: Harpagophoridae</div>
+            <h2 class="article-title">First Record of <i>Gonoplectus malayus lindbergi</i> Demange, 1961 from Nepal</h2>
+            <div class="meta-info">Published: January 2026 | Author: Chand, L.</div>
+            <p class="abstract-text">
+                <strong>Abstract:</strong> The Harpagophorid subspecies <i>Gonoplectus malayus lindbergi</i> is documented for the first time in Nepal. 
+                Previously known from Eastern Himalayan territories, these new sightings in the Central Himalayan belt provide 
+                valuable data for the biogeographical mapping of South Asian Myriapoda.
+            </p>
+            <a href="#" style="color: var(--primary-green); font-weight: bold;">Full Record Details →</a>
+        </article>
+    </section>
 
-</main>
+    <aside class="sidebar">
+        <h3>Quick Navigation</h3>
+        <a href="#article1" class="recent-link">Trigoniulus corallinus Record</a>
+        <a href="#article2" class="recent-link">Gonoplectus malayus lindbergi Record</a>
+        <br>
+        <h3>External Links</h3>
+        <a href="http://millibase.org" target="_blank" class="recent-link">MilliBase Database</a>
+        <a href="https://gbif.org" target="_blank" class="recent-link">GBIF Records</a>
+    </aside>
+</div>
 
 <footer>
-    <p>&copy; 2026 Lokendra Chand | Millipedes of Nepal Research</p>
+    <p>&copy; 2026 Millipedes of Nepal | Research Team: Lokendra Chand & Ayub Senchury</p>
 </footer>
 
 </body>
