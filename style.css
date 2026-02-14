@@ -103,3 +103,15 @@ footer {
 footer a {
     color: var(--accent-yellow);
 }
+
+/* Style for the Featured Species Photo */
+.featured-img {
+    width: 100%;           /* Makes it fit the width of the box */
+    max-width: 500px;      /* Prevents it from getting too huge on big screens */
+    height: auto;          /* Keeps the photo from looking stretched */
+    border-radius: 8px;    /* Gives it soft rounded corners */
+    display: block;
+    margin: 15px 0;        /* Adds space above and below the photo */
+    border: 3px solid var(--leaf-green); /* Adds a nice border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
