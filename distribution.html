@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Distribution Map - Millipedes of Nepal</title>
+    <title>Interactive Distribution - Millipedes of Nepal</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
-        #map { height: 600px; width: 100%; border-radius: 10px; margin-top: 20px; }
-        .filter-box { background: var(--leaf-green); color: white; padding: 15px; border-radius: 8px; margin-bottom: 10px; }
-        select { padding: 8px; border-radius: 5px; border: none; margin-right: 10px; }
+        #map { height: 70vh; width: 100%; border-radius: 12px; border: 3px solid var(--primary-green); }
+        .controls { 
+            background: #f4f1ea; 
+            padding: 20px; 
+            border-radius: 10px; 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+            gap: 15px;
+            margin-bottom: 20px;
+            border: 1px solid var(--leaf-green);
+        }
+        .filter-group label { display: block; font-weight: bold; color: var(--earth-brown); margin-bottom: 5px; }
+        .filter-group select { width: 100%; padding: 8px; border-radius: 5px; cursor: pointer; }
+        .popup-table { font-size: 14px; border-collapse: collapse; width: 100%; }
+        .popup-table td { padding: 4px; border-bottom: 1px solid #eee; }
+        .scientific { font-style: italic; color: var(--primary-green); }
     </style>
 </head>
 <body>
 
 <header style="padding:40px;">
-    <h1>Species Distribution</h1>
-    <p>Mapping the Diplopoda of Nepal</p>
+    <h1>Millipede Distribution Map</h1>
+    <p>Explore the biodiversity of Nepal by Taxonomic Rank</p>
 </header>
 
 <nav>
     <a href="index.html">Home</a>
+    <a href="history.html">History</a>
     <a href="checklist.html">Checklist</a>
     <a href="distribution.html">Map</a>
 </nav>
 
 <main>
-    <div class="filter-box">
-        <label>Filter by Order:</label>
-        <select id="orderFilter" onchange="updateMap()">
-            <option value="all">All Orders</option>
-            <option value="Glomerida">Glomerida</option>
-            <option value="Sphaerotheriida">Sphaerotheriida</option>
-            <option value="Polyzoniida">Polyzoniida</option>
-            <option value="Julida">Julida</option>
-        </select>
+    <div class="controls">
+        <div class="filter-group">
+            <label>Order</label>
+            <select id="orderFilter"><option value="all">All Orders</option></select>
+        </div>
+        <div class="filter-group">
+            <label>Family</label>
+            <select id="familyFilter"><option value="all">All Families</option></select>
+        </div>
+        <div class="filter-group">
+            <label>Genus</label>
+            <select id="genusFilter"><option value="all">All Genera</option></select>
+        </div>
+        <div class="filter-group">
+            <label>Species</label>
+            <select id="speciesFilter"><option value="all">All Species</option></select>
+        </div>
     </div>
 
     <div id="map"></div>
@@ -42,39 +64,83 @@
 <script src="data.js"></script>
 
 <script>
-    // Initialize the map centered on Nepal
+    // 1. Initialize Map
     const map = L.map('map').setView([28.3949, 84.1240], 7);
-
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors'
+        attribution: '© OpenStreetMap'
     }).addTo(map);
 
-    let markers = [];
+    let markers = L.layerGroup().addTo(map);
 
-    function updateMap() {
-        // Clear existing markers
-        markers.forEach(m => map.removeLayer(m));
-        markers = [];
+    // 2. Populate Filters Dynamically
+    function populateDropdown(id, data, key, parentKey = null, parentValue = null) {
+        const select = document.getElementById(id);
+        const uniqueValues = [...new Set(data
+            .filter(item => !parentKey || item[parentKey] === parentValue || parentValue === 'all')
+            .map(item => item[key]))].sort();
 
-        const selectedOrder = document.getElementById('orderFilter').value;
-
-        millipedePoints.forEach(point => {
-            if (selectedOrder === "all" || point.order === selectedOrder) {
-                const marker = L.marker([point.lat, point.lon])
-                    .bindPopup(`
-                        <strong>${point.genus} ${point.species}</strong><br>
-                        Order: ${point.order}<br>
-                        Family: ${point.family}<br>
-                        GPS: ${point.lat}, ${point.lon}
-                    `);
-                marker.addTo(map);
-                markers.push(marker);
+        select.innerHTML = '<option value="all">All ' + id.replace('Filter', '') + 's</option>';
+        uniqueValues.forEach(val => {
+            if(val && val !== "NA") {
+                let opt = document.createElement('option');
+                opt.value = val;
+                opt.textContent = val;
+                select.appendChild(opt);
             }
         });
     }
 
-    // Load initial map
-    updateMap();
+    // 3. Main Update Function
+    function updateDisplay() {
+        markers.clearLayers();
+        const fOrder = document.getElementById('orderFilter').value;
+        const fFamily = document.getElementById('familyFilter').value;
+        const fGenus = document.getElementById('genusFilter').value;
+        const fSpecies = document.getElementById('speciesFilter').value;
+
+        const filtered = millipedePoints.filter(p => {
+            return (fOrder === 'all' || p.order === fOrder) &&
+                   (fFamily === 'all' || p.family === fFamily) &&
+                   (fGenus === 'all' || p.genus === fGenus) &&
+                   (fSpecies === 'all' || p.species === fSpecies);
+        });
+
+        filtered.forEach(p => {
+            const popupContent = `
+                <table class="popup-table">
+                    <tr><td><strong>Order:</strong></td><td>${p.order}</td></tr>
+                    <tr><td><strong>Family:</strong></td><td>${p.family}</td></tr>
+                    <tr><td><strong>Genus:</strong></td><td class="scientific">${p.genus}</td></tr>
+                    <tr><td><strong>Species:</strong></td><td class="scientific">${p.species}</td></tr>
+                    <tr><td><strong>GPS:</strong></td><td>${p.lat}, ${p.lon}</td></tr>
+                </table>
+            `;
+            L.marker([p.lat, p.lon]).bindPopup(popupContent).addTo(markers);
+        });
+    }
+
+    // 4. Event Listeners for cascading filters
+    document.getElementById('orderFilter').addEventListener('change', function() {
+        populateDropdown('familyFilter', millipedePoints, 'family', 'order', this.value);
+        populateDropdown('genusFilter', millipedePoints, 'genus', 'order', this.value);
+        updateDisplay();
+    });
+
+    document.getElementById('familyFilter').addEventListener('change', function() {
+        populateDropdown('genusFilter', millipedePoints, 'genus', 'family', this.value);
+        updateDisplay();
+    });
+
+    document.getElementById('genusFilter').addEventListener('change', function() {
+        populateDropdown('speciesFilter', millipedePoints, 'species', 'genus', this.value);
+        updateDisplay();
+    });
+
+    document.getElementById('speciesFilter').addEventListener('change', updateDisplay);
+
+    // Initial Load
+    populateDropdown('orderFilter', millipedePoints, 'order');
+    updateDisplay();
 </script>
 
 </body>
