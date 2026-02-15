@@ -96,6 +96,7 @@
             border: 2px solid var(--primary-green);
             position: sticky;
             top: 20px;
+            z-index: 1;
         }
 
         .results-container {
@@ -229,32 +230,10 @@
         <div id="map"></div>
     </div>
 
+    <!-- Include your GPS data -->
+    <script src="data.js"></script>
+    
     <script>
-    // GPS Data for millipede points (from your dataset)
-    const millipedePoints = [
-        // Glomerida - Glomeridae
-        { order: "Glomerida", family: "Glomeridae", genus: "Hyleoglomeris", species: "crassipes", lat: 27.20386, lon: 87.464502 },
-        { order: "Glomerida", family: "Glomeridae", genus: "Hyleoglomeris", species: "gorkhalis", lat: 28.045647, lon: 84.631087 },
-        { order: "Glomerida", family: "Glomeridae", genus: "Hyleoglomeris", species: "gorkhalis", lat: 27.98539, lon: 84.630633 },
-        { order: "Glomerida", family: "Glomeridae", genus: "Hyleoglomeris", species: "khumbua", lat: 27.83277, lon: 86.746399 },
-        { order: "Glomerida", family: "Glomeridae", genus: "Hyleoglomeris", species: "khumbua", lat: 27.901691, lon: 86.894647 },
-        { order: "Glomerida", family: "Glomeridae", genus: "Hyleoglomeris", species: "nagarjunga", lat: 27.744675, lon: 85.268067 },
-        { order: "Glomerida", family: "Glomeridae", genus: "Hyleoglomeris", species: "tinjurana", lat: 27.199902, lon: 87.46934 },
-        
-        // Sphaerotheriida - Zephroniidae
-        { order: "Sphaerotheriida", family: "Zephroniidae", genus: "Kophosphaera", species: "excavata", lat: 27.656439, lon: 85.180041 },
-        { order: "Sphaerotheriida", family: "Zephroniidae", genus: "Kophosphaera", species: "martensi", lat: 28.313552, lon: 83.839932 },
-        { order: "Sphaerotheriida", family: "Zephroniidae", genus: "Kophosphaera", species: "politissima", lat: 27.657703, lon: 87.910006 },
-        { order: "Sphaerotheriida", family: "Zephroniidae", genus: "Kophosphaera", species: "politissima", lat: 27.611755, lon: 87.875046 },
-        { order: "Sphaerotheriida", family: "Zephroniidae", genus: "Kophosphaera", species: "shivapuri", lat: 27.80925, lon: 85.387725 },
-        { order: "Sphaerotheriida", family: "Zephroniidae", genus: "Zephronia", species: "nepalensis", lat: 27.010641, lon: 87.925383 },
-        { order: "Sphaerotheriida", family: "Zephroniidae", genus: "Zephronia", species: "nepalensis", lat: 27.090529, lon: 87.913849 },
-        { order: "Sphaerotheriida", family: "Zephroniidae", genus: "Zephronia", species: "nepalensis", lat: 27.124438, lon: 87.904898 },
-        
-        // Add more points from your dataset here...
-        // (I've included a sample, but you should include ALL your points)
-    ];
-
     // Full species data from checklist.json
     let speciesData = [];
     let map = null;
@@ -273,13 +252,21 @@
 
     // Clear all markers from map
     function clearMarkers() {
-        markers.forEach(marker => map.removeLayer(marker));
-        markers = [];
+        if (markers.length > 0) {
+            markers.forEach(marker => map.removeLayer(marker));
+            markers = [];
+        }
     }
 
     // Add markers for selected species
     function addMarkersForSpecies(order, family, genus, species) {
         clearMarkers();
+        
+        // Check if millipedePoints is available (from data.js)
+        if (typeof millipedePoints === 'undefined') {
+            console.error('millipedePoints not found. Make sure data.js is loaded correctly.');
+            return;
+        }
         
         const filteredPoints = millipedePoints.filter(point => 
             (order === 'all' || point.order === order) &&
@@ -287,6 +274,8 @@
             (genus === 'all' || point.genus === genus) &&
             (species === 'all' || point.species === species)
         );
+
+        console.log('Filtered points:', filteredPoints.length); // Debug log
 
         if (filteredPoints.length === 0) {
             return;
@@ -310,7 +299,7 @@
                 
                 marker.on('click', () => {
                     // Highlight corresponding card if it exists
-                    const cardId = `${point.genus}_${point.species}`.replace(/\s+/g, '-');
+                    const cardId = `${point.genus}_${point.species}`.replace(/\s+/g, '-').toLowerCase();
                     const card = document.getElementById(cardId);
                     if (card) {
                         card.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -335,9 +324,15 @@
 
     // Load Data
     fetch('checklist.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to load checklist.json');
+            }
+            return response.json();
+        })
         .then(data => {
             speciesData = data;
+            console.log('Species data loaded:', speciesData.length); // Debug log
             initFilters();
             initMap();
             document.getElementById('resultsCount').innerText = `Total: ${speciesData.length} species`;
@@ -464,16 +459,19 @@
         }
 
         results.forEach(item => {
-            // Find GPS points for this species
-            const speciesPoints = millipedePoints.filter(p => 
-                p.order === item.order && 
-                p.family === item.family && 
-                p.genus === item.genus && 
-                p.species === item.species
-            ).filter(p => p.lat && p.lon);
+            // Find GPS points for this species from millipedePoints
+            let speciesPoints = [];
+            if (typeof millipedePoints !== 'undefined') {
+                speciesPoints = millipedePoints.filter(p => 
+                    p.order === item.order && 
+                    p.family === item.family && 
+                    p.genus === item.genus && 
+                    p.species === item.species
+                ).filter(p => p.lat && p.lon);
+            }
 
             const hasCoordinates = speciesPoints.length > 0;
-            const cardId = `${item.genus}_${item.species}`.replace(/\s+/g, '-');
+            const cardId = `${item.genus}_${item.species}`.replace(/\s+/g, '-').toLowerCase();
 
             const card = document.createElement('div');
             card.className = 'species-card';
@@ -496,7 +494,7 @@
 
             // Add click handler to show on map
             card.onclick = () => {
-                if (hasCoordinates) {
+                if (hasCoordinates && typeof millipedePoints !== 'undefined') {
                     // Clear previous active state
                     if (currentActiveCard) {
                         currentActiveCard.classList.remove('active');
@@ -536,7 +534,9 @@
         document.getElementById('speciesFilter').innerHTML = '<option value="all">Select Species</option>';
         
         // Repopulate family based on 'all' orders
-        populateDropdown('familyFilter', 'family');
+        if (speciesData.length > 0) {
+            populateDropdown('familyFilter', 'family');
+        }
         
         updateResults();
     }
